@@ -2,10 +2,11 @@
 Solving Leetcode in Golang
 
 # Arrays & Hashing
-1. Two Sum: twoSum
+1. Two Sum: twoSum.go
 2. Add Two Numbers
-217. Contains Duplicate: containsDuplicate
-242. Valid Anagram: isAnagram
+49. Group Anagrams: groupAnagrams.go
+217. Contains Duplicate: containsDuplicate.go
+242. Valid Anagram: isAnagram.go
 347. Top K Frequent Elements
 1481. Least Number of Unique Integers after K Removals
 1658. Minimum Operations to Reduce X to Zero
