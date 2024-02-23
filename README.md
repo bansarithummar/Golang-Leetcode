@@ -3,6 +3,7 @@ Solving Leetcode in Golang
 
 # Arrays & Hashing
 1. Two Sum: twoSum.go
+36. Valid Sudoku: isValidSudoku.go
 49. Group Anagrams: groupAnagrams.go
 217. Contains Duplicate: containsDuplicate.go
 242. Valid Anagram: isAnagram.go
