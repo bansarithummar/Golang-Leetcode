@@ -5,6 +5,7 @@ Solving Leetcode in Golang
 1. Two Sum: twoSum.go
 36. Valid Sudoku: isValidSudoku.go
 49. Group Anagrams: groupAnagrams.go
+128. Longest Consecutive Sequence: longestConsecutive.go
 217. Contains Duplicate: containsDuplicate.go
 242. Valid Anagram: isAnagram.go
 347. Top K Frequent Elements: topKFrequent.go
