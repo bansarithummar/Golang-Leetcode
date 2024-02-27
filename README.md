@@ -13,6 +13,7 @@ Solving Leetcode in Golang
 
 # Two Pointers
 125. Valid Palindrome: isPalindrome.go
+167. Two Sum II - Input Array Is Sorted: twoSum.go
 
 
 # Extra
