@@ -12,6 +12,7 @@ Solving Leetcode in Golang
 238. Product of Array Except Self: productExceptSelf.go
 
 # Two Pointers
+15.3Sum: threeSum.go
 125. Valid Palindrome: isPalindrome.go
 167. Two Sum II - Input Array Is Sorted: twoSum2.go
 
