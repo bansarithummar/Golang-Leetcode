@@ -18,6 +18,10 @@ Solving Leetcode in Golang
 125. Valid Palindrome: isPalindrome.go
 167. Two Sum II - Input Array Is Sorted: twoSum2.go
 
+# Stack
+20. Valid Parentheses: isValid.go
+155. Min Stack: MinStack.go
+
 
 # Extra
 2. Add Two Numbers
