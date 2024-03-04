@@ -20,7 +20,10 @@ Solving Leetcode in Golang
 
 # Stack
 20. Valid Parentheses: isValid.go
+22. Generate Parentheses: generateParenthesis.go
+150. Evaluate Reverse Polish Notation: evalRPN.go
 155. Min Stack: MinStack.go
+
 
 
 # Extra
