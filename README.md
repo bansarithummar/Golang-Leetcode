@@ -23,7 +23,7 @@ Solving Leetcode in Golang
 22. Generate Parentheses: generateParenthesis.go
 150. Evaluate Reverse Polish Notation: evalRPN.go
 155. Min Stack: MinStack.go
-
+739. Daily Temperatures: dailyTemperatures.go
 
 
 # Extra
