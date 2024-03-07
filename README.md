@@ -28,7 +28,9 @@ Solving Leetcode in Golang
 853. Car Fleet: carFleet.go
 
 # Binary Search
+74. Search a 2D Matrix: searchMatrix.go
 704. Binary Search: search.go
+     
 
 # Extra
 2. Add Two Numbers
