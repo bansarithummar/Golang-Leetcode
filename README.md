@@ -27,6 +27,8 @@ Solving Leetcode in Golang
 739. Daily Temperatures: dailyTemperatures.go
 853. Car Fleet: carFleet.go
 
+# Binary Search
+704. Binary Search: search.go
 
 # Extra
 2. Add Two Numbers
