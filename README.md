@@ -29,6 +29,7 @@ Solving Leetcode in Golang
 
 # Binary Search
 74. Search a 2D Matrix: searchMatrix.go
+153. Find Minimum in Rotated Sorted Array: findMin.go
 704. Binary Search: search.go
 875. Koko Eating Bananas: minEatingSpeed.go
 
