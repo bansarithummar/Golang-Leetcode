@@ -33,6 +33,7 @@ Solving Leetcode in Golang
 153. Find Minimum in Rotated Sorted Array: findMin.go
 704. Binary Search: search.go
 875. Koko Eating Bananas: minEatingSpeed.go
+981. Time Based Key-Value Store: TimeMap.go
 
 # Extra
 2. Add Two Numbers
