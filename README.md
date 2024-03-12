@@ -28,6 +28,7 @@ Solving Leetcode in Golang
 853. Car Fleet: carFleet.go
 
 # Binary Search
+4. Median of Two Sorted Arrays: findMedianSortedArrays.go
 33. Search in Rotated Sorted Array: search33.go
 74. Search a 2D Matrix: searchMatrix.go
 153. Find Minimum in Rotated Sorted Array: findMin.go
