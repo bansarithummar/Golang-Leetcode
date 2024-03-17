@@ -1,9 +1,5 @@
 155. Min Stack
 
-package main
-
-import "math"
-
 type MinStack struct {
     stack    []int
     minStack []int
