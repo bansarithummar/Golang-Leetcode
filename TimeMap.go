@@ -2,46 +2,35 @@
 
 package main
 
-import (
-	"fmt"
-	"sort"
-)
+import "sort"
 
 type TimeMap struct {
-	store map[string][][2]string
+    store map[string][]pair // Maps keys to a list of (value, timestamp) pairs
+}
+
+type pair struct {
+    value     string
+    timestamp int
 }
 
 func Constructor() TimeMap {
-	return TimeMap{
-		store: make(map[string][][2]string),
-	}
+    return TimeMap{store: make(map[string][]pair)}
 }
 
-func (tm *TimeMap) Set(key, value string, timestamp int) {
-	if _, ok := tm.store[key]; !ok {
-		tm.store[key] = [][2]string{}
-	}
-	tm.store[key] = append(tm.store[key], [2]string{value, fmt.Sprintf("%d", timestamp)})
+func (this *TimeMap) Set(key string, value string, timestamp int) {
+    this.store[key] = append(this.store[key], pair{value, timestamp})
 }
 
-func (tm *TimeMap) Get(key string, timestamp int) string {
-	values, ok := tm.store[key]
-	if !ok {
-		return ""
-	}
-
-	// Perform binary search
-	left, right := 0, len(values)-1
-	for left <= right {
-		mid := left + (right-left)/2
-		if ts, _ := strconv.Atoi(values[mid][1]); ts <= timestamp {
-			return values[mid][0]
-		} else {
-			right = mid - 1
-		}
-	}
-
-	return ""
+func (this *TimeMap) Get(key string, timestamp int) string {
+    pairs := this.store[key]
+    i := sort.Search(len(pairs), func(i int) bool {
+        return pairs[i].timestamp > timestamp
+    })
+    if i > 0 {
+        return pairs[i-1].value
+    }
+    return "" // Return empty string if no suitable timestamp found
 }
+
 
 
