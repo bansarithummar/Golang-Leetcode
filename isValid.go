@@ -1,25 +1,30 @@
 20. Valid Parentheses
 
-package main
-
-import "fmt"
-
 func isValid(s string) bool {
-	stack := make([]rune, 0)
-	closeToOpen := map[rune]rune{')': '(', '}': '{', ']': '['}
+    stack := []rune{}
 
-	for _, c := range s {
-		if _, ok := closeToOpen[c]; ok {
-			if len(stack) > 0 && stack[len(stack)-1] == closeToOpen[c] {
-				stack = stack[:len(stack)-1]
-			} else {
-				return false
-			}
-		} else {
-			stack = append(stack, c)
-		}
-	}
+    for _, char := range s {
+        switch char {
+        case '(', '{', '[':
+            stack = append(stack, char)
+        case ')':
+            if len(stack) == 0 || stack[len(stack)-1] != '(' {
+                return false
+            }
+            stack = stack[:len(stack)-1]
+        case '}':
+            if len(stack) == 0 || stack[len(stack)-1] != '{' {
+                return false
+            }
+            stack = stack[:len(stack)-1]
+        case ']':
+            if len(stack) == 0 || stack[len(stack)-1] != '[' {
+                return false
+            }
+            stack = stack[:len(stack)-1]
+        }
+    }
 
-	return len(stack) == 0
+    return len(stack) == 0    
 }
 
