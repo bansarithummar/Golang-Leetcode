@@ -1,36 +1,24 @@
 125. Valid Palindrome
 
-package main
-
-import (
-	"fmt"
-	"unicode"
-)
-
 func isPalindrome(s string) bool {
-	l, r := 0, len(s)-1
-	for l < r {
-		for l < r && !isAlphaNum(rune(s[l])) {
-			l++
-		}
-		for r > l && !isAlphaNum(rune(s[r])) {
-			r--
-		}
-		if unicode.ToLower(rune(s[l])) != unicode.ToLower(rune(s[r])) {
-			return false
-		}
-		l++
-		r--
-	}
-	return true
-}
+    s = strings.ToLower(s) // Convert to lowercase
+    left, right := 0, len(s)-1
 
-func isAlphaNum(c rune) bool {
-	return unicode.IsLetter(c) || unicode.IsDigit(c)
+    for left < right {
+        // Move left index forward if not alphanumeric
+        for left < right && !unicode.IsLetter(rune(s[left])) && !unicode.IsNumber(rune(s[left])) {
+            left++
+        }
+        // Move right index backward if not alphanumeric
+        for left < right && !unicode.IsLetter(rune(s[right])) && !unicode.IsNumber(rune(s[right])) {
+            right--
+        }
+        // Compare characters
+        if s[left] != s[right] {
+            return false
+        }
+        left++
+        right--
+    }
+    return true
 }
-
-func main() {
-	s := "A man, a plan, a canal: Panama"
-	fmt.Println(isPalindrome(s)) // Output: true
-}
-
