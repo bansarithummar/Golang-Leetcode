@@ -1,21 +1,18 @@
 1. Two Sum
 
-package main
-
 func twoSum(nums []int, target int) []int {
-	prevMap := make(map[int]int)
-	for i, n := range nums {
-		diff := target - n
-		if index, found := prevMap[diff]; found {
-			return []int{index, i}
-		}
-		prevMap[n] = i
-	}
-	return nil
-}
+    numMap := make(map[int]int)
 
-func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 9
-	fmt.Println(twoSum(nums, target)) // Output: [0, 1]
+    // Iterate over the array
+    for i, num := range nums {
+        complement := target - num
+        if j, ok := numMap[complement]; ok {
+            // If the complement is found in the map, return the indices
+            return []int{j, i}
+        }
+        // Store the index of the current number in the map
+        numMap[num] = i
+    }
+    // In case no solution is found, though the problem guarantees one.
+    return nil    
 }
