@@ -1,9 +1,5 @@
 155. Min Stack
 
-package main
-
-import "fmt"
-
 type MinStack struct {
     stack    []int // Stack to store all elements
     minStack []int // Stack to store the minimum elements
