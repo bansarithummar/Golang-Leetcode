@@ -1,9 +1,5 @@
 981. Time Based Key-Value Store
 
-package main
-
-import "sort"
-
 type TimeMap struct {
     store map[string][]pair // Maps keys to a list of (value, timestamp) pairs
 }
