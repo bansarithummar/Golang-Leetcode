@@ -1,12 +1,5 @@
 853. Car Fleet
 
-package main
-
-import (
-	"fmt"
-	"sort"
-)
-
 func carFleet(target int, position []int, speed []int) int {
 	type pair struct {
 		position int
