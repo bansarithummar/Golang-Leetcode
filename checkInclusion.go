@@ -1,10 +1,5 @@
 567. Permutation in String
 
-package main
-
-import "fmt"
-
-// checkInclusion returns true if s2 contains a permutation of s1.
 func checkInclusion(s1 string, s2 string) bool {
     if len(s1) > len(s2) {
         return false
@@ -48,14 +43,4 @@ func checkInclusion(s1 string, s2 string) bool {
     }
 
     return matches == 26
-}
-
-func main() {
-    s1 := "ab"
-    s2 := "eidbaooo"
-    fmt.Println("Example 1:", checkInclusion(s1, s2))
-
-    s1 = "ab"
-    s2 = "eidboaoo"
-    fmt.Println("Example 2:", checkInclusion(s1, s2))
 }
