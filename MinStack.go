@@ -43,6 +43,5 @@ func (this *MinStack) GetMin() int {
     return -1 // Or handle error appropriately
 }
 
-// Ensure to integrate the testing part in your own main function, or run this snippet in isolation.
 
 
