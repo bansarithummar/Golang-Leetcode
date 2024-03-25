@@ -1,9 +1,5 @@
 150. Evaluate Reverse Polish Notation
 
-package main
-
-import "strconv"
-
 func evalRPN(tokens []string) int {
 	stack := []int{}
 	for _, c := range tokens {
