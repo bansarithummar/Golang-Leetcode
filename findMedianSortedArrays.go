@@ -1,11 +1,5 @@
 4. Median of Two Sorted Arrays
 
-package main
-
-import (
-	"math"
-)
-
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	var A, B []int
 	A, B = nums1, nums2
@@ -58,13 +52,3 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		}
 	}
 }
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-fu
-
