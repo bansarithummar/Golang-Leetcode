@@ -1,54 +1,47 @@
 4. Median of Two Sorted Arrays
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
-	var A, B []int
-	A, B = nums1, nums2
-	total := len(nums1) + len(nums2)
-	half := total / 2
+    if len(nums1) > len(nums2) {
+    nums1, nums2 = nums2, nums1
+    }
 
-	if len(B) < len(A) {
-		A, B = B, A
-	}
+    m, n := len(nums1), len(nums2)
+    imin, imax, halfLen := 0, m, (m+n+1)/2
 
-	l, r := 0, len(A)-1
-	for {
-		i := (l + r) / 2
-		j := half - i - 2
+    for imin <= imax {
+        i := (imin + imax) / 2
+        j := halfLen - i
 
-		var Aleft, Aright, Bleft, Bright int
-		if i >= 0 {
-			Aleft = A[i]
-		} else {
-			Aleft = math.MinInt64
-		}
+        if i < imax && nums2[j-1] > nums1[i] {
+            imin = i + 1
+        } else if i > imin && nums1[i-1] > nums2[j] {
+            imax = i - 1
+        } else {
+            // i is perfect
+            var maxLeft float64
+            if i == 0 {
+                maxLeft = float64(nums2[j-1])
+            } else if j == 0 {
+                maxLeft = float64(nums1[i-1])
+            } else {
+                maxLeft = float64(math.Max(float64(nums1[i-1]), float64(nums2[j-1])))
+            }
+            if (m+n)%2 == 1 {
+                return maxLeft // Odd case
+            }
 
-		if i+1 < len(A) {
-			Aright = A[i+1]
-		} else {
-			Aright = math.MaxInt64
-		}
+            var minRight float64
+            if i == m {
+                minRight = float64(nums2[j])
+            } else if j == n {
+                minRight = float64(nums1[i])
+            } else {
+                minRight = float64(math.Min(float64(nums1[i]), float64(nums2[j])))
+            }
 
-		if j >= 0 {
-			Bleft = B[j]
-		} else {
-			Bleft = math.MinInt64
-		}
+            return (maxLeft + minRight) / 2.0 // Even case
+        }
+    }
 
-		if j+1 < len(B) {
-			Bright = B[j+1]
-		} else {
-			Bright = math.MaxInt64
-		}
-
-		if Aleft <= Bright && Bleft <= Aright {
-			if total%2 == 1 {
-				return float64(min(Aright, Bright))
-			}
-			return float64(max(Aleft, Bleft)+min(Aright, Bright)) / 2
-		} else if Aleft > Bright {
-			r = i - 1
-		} else {
-			l = i + 1
-		}
-	}
+    return 0.0 	
 }
