@@ -25,7 +25,7 @@ func (this *TimeMap) Get(key string, timestamp int) string {
     if i > 0 {
         return pairs[i-1].value
     }
-    return "" // Return empty string if no suitable timestamp found
+    return "" 
 }
 
 
