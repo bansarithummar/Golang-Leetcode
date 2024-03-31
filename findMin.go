@@ -6,7 +6,6 @@ func findMin(nums []int) int {
         return nums[0]
     }
     
-    // Binary search way
     for right >= left {
         mid := left + (right-left)/2
         // If the mid element is greater than its next element then mid+1 element is the smallest
@@ -18,7 +17,6 @@ func findMin(nums []int) int {
         if nums[mid-1] > nums[mid] {
             return nums[mid]
         }
-        // Decide which side to go.
         if nums[mid] > nums[0] {
             left = mid + 1
         } else {
