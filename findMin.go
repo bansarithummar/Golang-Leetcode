@@ -8,12 +8,9 @@ func findMin(nums []int) int {
     
     for right >= left {
         mid := left + (right-left)/2
-        // If the mid element is greater than its next element then mid+1 element is the smallest
-        // This point is the point of change from bigger to smaller
         if nums[mid] > nums[mid+1] {
             return nums[mid+1]
         }
-        // If the mid element is lesser than its previous element then mid element is the smallest
         if nums[mid-1] > nums[mid] {
             return nums[mid]
         }
