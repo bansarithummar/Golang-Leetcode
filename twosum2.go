@@ -1,9 +1,5 @@
 167. Two Sum II - Input Array Is Sorted
 
-package main
-
-import "fmt"
-
 func twoSum(numbers []int, target int) []int {
 	l, r := 0, len(numbers)-1
 
@@ -18,11 +14,5 @@ func twoSum(numbers []int, target int) []int {
 		}
 	}
 	return []int{}
-}
-
-func main() {
-	numbers := []int{2, 7, 11, 15}
-	target := 9
-	fmt.Println(twoSum(numbers, target)) // Output: [1 2]
 }
 
