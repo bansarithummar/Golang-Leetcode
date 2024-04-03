@@ -1,7 +1,5 @@
 15. 3Sum
 
-import "sort"
-
 func threeSum(nums []int) [][]int {
 	var res [][]int
 	sort.Ints(nums)
