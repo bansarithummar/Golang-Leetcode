@@ -1,11 +1,5 @@
 128. Longest Consecutive Sequence
 
-package main
-
-import (
-	"fmt"
-)
-
 func longestConsecutive(nums []int) int {
 	numSet := make(map[int]bool)
 	longest := 0
@@ -33,9 +27,3 @@ func longestConsecutive(nums []int) int {
 
 	return longest
 }
-
-func main() {
-	nums := []int{100, 4, 200, 1, 3, 2}
-	fmt.Println(longestConsecutive(nums)) // Output: 4
-}
-
