@@ -1,11 +1,5 @@
 347. Top K Frequent Elements
 
-package main
-
-import (
-	"container/heap"
-)
-
 type pair struct {
 	num  int
 	freq int
@@ -50,10 +44,3 @@ func topKFrequent(nums []int, k int) []int {
 	}
 	return result
 }
-
-func main() {
-	nums := []int{1, 1, 1, 2, 2, 3}
-	k := 2
-	fmt.Println(topKFrequent(nums, k)) // Output: [1, 2]
-}
-
