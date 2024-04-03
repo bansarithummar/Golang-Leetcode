@@ -1,11 +1,5 @@
 74. Search a 2D Matrix
 
-package main
-
-import (
-	"fmt"
-)
-
 func searchMatrix(matrix [][]int, target int) bool {
 	rows, cols := len(matrix), len(matrix[0])
 	top, bot := 0, rows-1
