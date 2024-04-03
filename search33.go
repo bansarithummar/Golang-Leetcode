@@ -1,11 +1,5 @@
 33. Search in Rotated Sorted Array
 
-package main
-
-import (
-	"fmt"
-)
-
 func search(nums []int, target int) int {
 	left, right := 0, len(nums)-1
 
