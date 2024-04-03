@@ -1,11 +1,5 @@
 11. Container With Most Water
 
-package main
-
-import (
-	"fmt"
-)
-
 func maxArea(height []int) int {
 	left, right := 0, len(height)-1
 	max := 0
@@ -30,9 +24,4 @@ func min(a, b int) int {
 		return a
 	}
 	return b
-}
-
-func main() {
-	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
-	fmt.Println(maxArea(height)) // Output: 49
 }
