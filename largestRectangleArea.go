@@ -1,9 +1,5 @@
 84. Largest Rectangle in Histogram
 
-package main
-
-import "fmt"
-
 func largestRectangleArea(heights []int) int {
 	maxArea := 0
 	var stack [][]int
