@@ -1,8 +1,5 @@
 238. Product of Array Except Self
 
-package main
-
-import "fmt"
 
 func productExceptSelf(nums []int) []int {
     n := len(nums)
