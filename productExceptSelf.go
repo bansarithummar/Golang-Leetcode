@@ -21,9 +21,3 @@ func productExceptSelf(nums []int) []int {
 
     return res
 }
-
-func main() {
-    nums := []int{1, 2, 3, 4}
-    result := productExceptSelf(nums)
-    fmt.Println(result) // Output: [24 12 8 6]
-}
