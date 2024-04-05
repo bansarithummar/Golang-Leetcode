@@ -22,9 +22,3 @@ func max(a, b int) int {
 	}
 	return b
 }
-
-func main() {
-	s := "abcabcbb"
-	longestLength := lengthOfLongestSubstring(s)
-	println("Length of the longest substring without repeating characters:", longestLength)
-}
