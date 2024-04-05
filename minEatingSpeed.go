@@ -1,12 +1,5 @@
 875. Koko Eating Bananas
 
-package main
-
-import (
-	"fmt"
-	"math"
-)
-
 func minEatingSpeed(piles []int, h int) int {
 	left, right := 1, max(piles)
 	res := right
@@ -36,11 +29,4 @@ func max(arr []int) int {
 		}
 	}
 	return max
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }
