@@ -8,7 +8,6 @@ func threeSum(nums []int) [][]int {
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
-
 		l, r := i+1, len(nums)-1
 		for l < r {
 			threeSum := nums[i] + nums[l] + nums[r]
