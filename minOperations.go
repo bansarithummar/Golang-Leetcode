@@ -1,31 +1,32 @@
 1658. Minimum Operations to Reduce X to Zero
 
 func minOperations(nums []int, x int) int {
-    n := len(nums)
-    target := 0
+    total := 0
     for _, num := range nums {
-        target += num
+        total += num
     }
-    target -= x
     
-    prefixSum := make(map[int]int)
-    prefixSum[0] = -1
-    currSum := 0
+    n := len(nums)
     maxLength := -1
+    left := 0
+    currentSum := 0
 
-    for i, num := range nums {
-        currSum += num
-        if idx, exists := prefixSum[currSum - target]; exists {
-            maxLength = max(maxLength, i - idx)
+    for right := 0; right < n; right++ {
+        currentSum += nums[right]
+        // Shrink the window from the left if the current sum exceeds the target sum
+        for currentSum > total-x && left <= right {
+            currentSum -= nums[left]
+            left++
         }
-        prefixSum[currSum] = i
+        if currentSum == total-x {
+            maxLength = max(maxLength, right-left+1)
+        }
     }
-
+    
     if maxLength == -1 {
         return -1
-    } else {
-        return n - maxLength
     }
+    return n - maxLength
 }
 
 func max(a, b int) int {
