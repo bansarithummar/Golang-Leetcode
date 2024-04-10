@@ -1,6 +1,5 @@
 238. Product of Array Except Self
 
-
 func productExceptSelf(nums []int) []int {
     n := len(nums)
     res := make([]int, n)
