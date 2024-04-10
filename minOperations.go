@@ -5,7 +5,6 @@ func minOperations(nums []int, x int) int {
     for _, num := range nums {
         total += num
     }
-    
     n := len(nums)
     maxLength := -1
     left := 0
@@ -21,8 +20,7 @@ func minOperations(nums []int, x int) int {
         if currentSum == total-x {
             maxLength = max(maxLength, right-left+1)
         }
-    }
-    
+    } 
     if maxLength == -1 {
         return -1
     }
