@@ -14,6 +14,5 @@ func rearrangeArray(nums []int) []int {
             ni += 2
         }
     }
-
     return res
 }
