@@ -9,11 +9,9 @@ func carFleet(target int, position []int, speed []int) int {
 	for i := 0; i < len(position); i++ {
 		pairs = append(pairs, pair{position[i], speed[i]})
 	}
-
 	sort.Slice(pairs, func(i, j int) bool {
 		return pairs[i].position > pairs[j].position
 	})
-
 	var stack []float64
 	for _, p := range pairs {
 		time := float64(target-p.position) / float64(p.speed)
@@ -22,7 +20,6 @@ func carFleet(target int, position []int, speed []int) int {
 			stack = stack[:len(stack)-1]
 		}
 	}
-
 	return len(stack)
 }
 
