@@ -33,14 +33,14 @@ func (this *MinStack) Top() int {
     if len(this.stack) > 0 {
         return this.stack[len(this.stack)-1]
     }
-    return -1 // Or handle error appropriately
+    return -1 
 }
 
 func (this *MinStack) GetMin() int {
     if len(this.minStack) > 0 {
         return this.minStack[len(this.minStack)-1]
     }
-    return -1 // Or handle error appropriately
+    return -1 
 }
 
 
