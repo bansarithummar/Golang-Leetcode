@@ -15,15 +15,12 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
             sum += l2.Val
             l2 = l2.Next
         }
-
         carry = sum / 10
         current.Next = &ListNode{Val: sum % 10}
         current = current.Next
     }
-
     if carry > 0 {
         current.Next = &ListNode{Val: carry}
     }
-
     return dummyHead.Next
 }
