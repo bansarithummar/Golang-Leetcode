@@ -38,6 +38,7 @@ Solving Leetcode in Golang
 
 # Sliding Window
 3. Longest Substring Without Repeating Characters: lengthOfLongestSubstring.go
+76. Minimum Window Substring: minWindow.go
 121. Best Time to Buy and Sell Stock: maxProfit.go
 424. Longest Repeating Character Replacement: characterReplacement.go
 567. Permutation in String: checkInclusion.go
