@@ -1,5 +1,6 @@
 167. Two Sum II - Input Array Is Sorted
 
+
 func twoSum(numbers []int, target int) []int {
 	l, r := 0, len(numbers)-1
 
