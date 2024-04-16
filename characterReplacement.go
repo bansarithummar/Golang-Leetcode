@@ -1,5 +1,6 @@
 424. Longest Repeating Character Replacement
 
+
 func characterReplacement(s string, k int) int {
     maxLen := 0
     maxCount := 0
