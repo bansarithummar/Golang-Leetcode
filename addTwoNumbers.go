@@ -4,7 +4,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     dummyHead := &ListNode{}
     current := dummyHead
     carry := 0
-
     for l1 != nil || l2 != nil {
         sum := carry
         if l1 != nil {
