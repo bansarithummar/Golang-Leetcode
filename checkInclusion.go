@@ -1,5 +1,6 @@
 567. Permutation in String
 
+
 func checkInclusion(s1 string, s2 string) bool {
     if len(s1) > len(s2) {
         return false
