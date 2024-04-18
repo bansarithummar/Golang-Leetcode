@@ -1,5 +1,6 @@
 217. Contains Duplicate
 
+
 func containsDuplicate(nums []int) bool {
     hashset := make(map[int]bool)
     for _, n := range nums {
