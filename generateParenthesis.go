@@ -1,5 +1,6 @@
 22. Generate Parentheses
 
+
 func generateParenthesis(n int) []string {
 var result []string
     backtrack(&result, "", 0, 0, n)
