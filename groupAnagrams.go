@@ -1,5 +1,6 @@
 49.Group Anagrams
 
+
 func sortString(w string) string {
     s := strings.Split(w, "")
     sort.Strings(s)
