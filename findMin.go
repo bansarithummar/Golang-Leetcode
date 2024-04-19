@@ -1,5 +1,6 @@
 153. Find Minimum in Rotated Sorted Array
 
+
 func findMin(nums []int) int {
     left, right := 0, len(nums)-1
     if len(nums) == 1 || nums[right] > nums[0] {
