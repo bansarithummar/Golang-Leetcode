@@ -1,5 +1,6 @@
 20. Valid Parentheses
 
+
 func isValid(s string) bool {
     stack := []rune{}
 
