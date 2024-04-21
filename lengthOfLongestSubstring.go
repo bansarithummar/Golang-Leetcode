@@ -1,5 +1,6 @@
 3. Longest Substring Without Repeating Characters
 
+
 func lengthOfLongestSubstring(s string) int {
 	charSet := make(map[rune]bool)
 	l := 0
