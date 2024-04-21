@@ -1,5 +1,6 @@
 11. Container With Most Water
 
+
 func maxArea(height []int) int {
 	left, right := 0, len(height)-1
 	max := 0
