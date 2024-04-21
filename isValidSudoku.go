@@ -1,5 +1,6 @@
 36. Valid Sudoku
 
+
 func isValidSudoku(board [][]byte) bool {
     rowChecks := make([]map[byte]bool, 9)
     colChecks := make([]map[byte]bool, 9)
