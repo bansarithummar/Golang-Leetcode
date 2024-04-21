@@ -1,5 +1,6 @@
 128. Longest Consecutive Sequence
 
+
 func longestConsecutive(nums []int) int {
 	numSet := make(map[int]bool)
 	longest := 0
