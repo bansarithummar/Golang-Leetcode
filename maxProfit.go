@@ -1,5 +1,6 @@
 121. Best Time to Buy and Sell Stock
 
+
 func maxProfit(prices []int) int {
 	l, r := 0, 1
 	maxP := 0
