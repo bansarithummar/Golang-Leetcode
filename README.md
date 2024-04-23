@@ -44,6 +44,9 @@ Solving Leetcode in Golang
 424. Longest Repeating Character Replacement: characterReplacement.go
 567. Permutation in String: checkInclusion.go
 
+# Linked List
+206. Reverse Linked List: reverseList.go
+
 # Extra
 2. Add Two Numbers
 1481. Least Number of Unique Integers after K Removals
