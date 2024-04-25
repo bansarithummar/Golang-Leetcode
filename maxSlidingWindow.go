@@ -1,5 +1,6 @@
 239. Sliding Window Maximum
 
+
 func maxSlidingWindow(nums []int, k int) []int {
     result := make([]int, 0)
     deque := make([]int, 0)
