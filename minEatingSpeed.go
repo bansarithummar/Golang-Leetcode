@@ -1,5 +1,6 @@
 875. Koko Eating Bananas
 
+
 func minEatingSpeed(piles []int, h int) int {
 	left, right := 1, max(piles)
 	res := right
