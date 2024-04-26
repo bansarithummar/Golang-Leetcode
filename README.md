@@ -51,6 +51,7 @@ Solving Leetcode in Golang
 
 # Linked List
 21. Merge Two Sorted Lists: mergeTwoLists.go
+143. Reorder List: reorderList.go
 206. Reverse Linked List: reverseList.go
 
 
