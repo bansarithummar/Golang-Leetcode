@@ -1,5 +1,6 @@
 1658. Minimum Operations to Reduce X to Zero
 
+
 func minOperations(nums []int, x int) int {
     total := 0
     for _, num := range nums {
