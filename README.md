@@ -50,7 +50,7 @@ Solving Leetcode in Golang
 
 
 # Linked List
-2. Add Two Numbers: addTwoNumbers2.go
+2. Add Two Numbers: addTwoNumbers.go
 19. Remove Nth Node From End of List: removeNthFromEnd.go
 21. Merge Two Sorted Lists: mergeTwoLists.go
 138. Copy List with Random Pointer: copyRandomList.go
@@ -59,7 +59,6 @@ Solving Leetcode in Golang
 
 
 # Extra
-2. Add Two Numbers
 1481. Least Number of Unique Integers after K Removals
 1658. Minimum Operations to Reduce X to Zero
 2149. Rearrange Array Elements by Sign
