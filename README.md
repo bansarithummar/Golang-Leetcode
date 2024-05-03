@@ -54,6 +54,7 @@ Solving Leetcode in Golang
 19. Remove Nth Node From End of List: removeNthFromEnd.go
 21. Merge Two Sorted Lists: mergeTwoLists.go
 138. Copy List with Random Pointer: copyRandomList.go
+141. Linked List Cycle: hasCycle.go
 143. Reorder List: reorderList.go
 206. Reverse Linked List: reverseList.go
 
