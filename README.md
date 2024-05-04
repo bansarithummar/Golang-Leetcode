@@ -57,7 +57,7 @@ Solving Leetcode in Golang
 141. Linked List Cycle: hasCycle.go
 143. Reorder List: reorderList.go
 206. Reverse Linked List: reverseList.go
-
+287. Find the Duplicate Number: findDuplicate.go
 
 # Extra
 1481. Least Number of Unique Integers after K Removals
