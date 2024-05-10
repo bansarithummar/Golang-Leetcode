@@ -1,6 +1,5 @@
 42. Trapping Rain Water
 
-
 func trap(height []int) int {
 	if len(height) == 0 {
 		return 0
