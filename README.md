@@ -57,6 +57,7 @@ Solving Leetcode in Golang
 138. Copy List with Random Pointer: copyRandomList.go
 141. Linked List Cycle: hasCycle.go
 143. Reorder List: reorderList.go
+146. LRU Cache: LRUCache.go
 206. Reverse Linked List: reverseList.go
 287. Find the Duplicate Number: findDuplicate.go
 
