@@ -62,6 +62,10 @@ Solving Leetcode in Golang
 287. Find the Duplicate Number: findDuplicate.go
 
 
+# Trees
+226.Invert Binary Tree: invertTree.go
+
+
 # Extra
 1481. Least Number of Unique Integers after K Removals
 1658. Minimum Operations to Reduce X to Zero
