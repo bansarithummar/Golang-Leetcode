@@ -63,7 +63,8 @@ Solving Leetcode in Golang
 
 
 # Trees
-226.Invert Binary Tree: invertTree.go
+104. Maximum Depth of Binary Tree: maxDepth.go
+226. Invert Binary Tree: invertTree.go
 
 
 # Extra
