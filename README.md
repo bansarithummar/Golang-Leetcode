@@ -64,6 +64,7 @@ Solving Leetcode in Golang
 
 # Trees
 104. Maximum Depth of Binary Tree: maxDepth.go
+110. Balanced Binary Tree: isBalanced.go
 226. Invert Binary Tree: invertTree.go
 543. Diameter of Binary Tree: diameterOfBinaryTree.go
 
