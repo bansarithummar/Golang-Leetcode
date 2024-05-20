@@ -68,7 +68,7 @@ Solving Leetcode in Golang
 110. Balanced Binary Tree: isBalanced.go
 226. Invert Binary Tree: invertTree.go
 543. Diameter of Binary Tree: diameterOfBinaryTree.go
-
+572. Subtree of Another Tree: isSubtree.go
 
 # Extra
 1481. Least Number of Unique Integers after K Removals
