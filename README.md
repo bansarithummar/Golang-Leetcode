@@ -67,8 +67,10 @@ Solving Leetcode in Golang
 104. Maximum Depth of Binary Tree: maxDepth.go
 110. Balanced Binary Tree: isBalanced.go
 226. Invert Binary Tree: invertTree.go
+235. Lowest Common Ancestor of a Binary Search tree: lowestCommonAncestor.go
 543. Diameter of Binary Tree: diameterOfBinaryTree.go
 572. Subtree of Another Tree: isSubtree.go
+
 
 # Extra
 1481. Least Number of Unique Integers after K Removals
