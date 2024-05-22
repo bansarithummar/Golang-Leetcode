@@ -1,5 +1,6 @@
 155. Min Stack
 
+
 type MinStack struct {
     stack    []int // Stack to store all elements
     minStack []int // Stack to store the minimum elements
