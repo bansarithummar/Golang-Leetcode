@@ -1,5 +1,6 @@
 543. Diameter of Binary Tree
 
+
 func diameterOfBinaryTree(root *TreeNode) int {
     maxDiameter := 0
     var depth func(node *TreeNode) int
