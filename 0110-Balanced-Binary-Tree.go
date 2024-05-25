@@ -1,11 +1,11 @@
 110. Balanced Binary Tree
 
+
 func isBalanced(root *TreeNode) bool {
     _, balanced := checkBalance(root)
     return balanced
 }
 
-// checkBalance returns the height of the node and whether it's balanced.
 func checkBalance(node *TreeNode) (int, bool) {
     if node == nil {
         return 0, true
