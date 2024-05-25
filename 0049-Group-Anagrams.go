@@ -1,4 +1,4 @@
-49.Group Anagrams
+49. Group Anagrams
 
 
 func sortString(w string) string {
