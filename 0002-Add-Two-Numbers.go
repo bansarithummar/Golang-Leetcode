@@ -1,6 +1,3 @@
-2. Add Two Numbers
-
-
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     dummyHead := &ListNode{}
     current := dummyHead
