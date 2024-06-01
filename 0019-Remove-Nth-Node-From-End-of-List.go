@@ -1,20 +1,22 @@
-19. Remove Nth Node From End of List
-
-
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
-    dummy := &ListNode{Val: 0, Next: head}
-    first := head
-    length := 0
+    dummy := &ListNode{Next: head}
+    first := dummy
+    second := dummy
+    for i := 0; i <= n; i++ {
+        first = first.Next
+    }
     for first != nil {
-        length++
         first = first.Next
+        second = second.Next
     }
-    length -= n
-    first = dummy
-    for length > 0 {
-        length--
-        first = first.Next
-    }
-    first.Next = first.Next.Next
-    return dummy.Next
+    second.Next = second.Next.Next
+
+    return dummy.Next    
 }
