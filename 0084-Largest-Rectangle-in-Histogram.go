@@ -1,32 +1,37 @@
-84. Largest Rectangle in Histogram
-
-
 func largestRectangleArea(heights []int) int {
+n := len(heights)
+	if n == 0 {
+		return 0
+	}
+	if n == 1 {
+		return heights[0]
+	}
+
 	maxArea := 0
-	var stack [][]int
+	stack := []int{}
 
-	for i, h := range heights {
-		start := i
-		for len(stack) > 0 && stack[len(stack)-1][1] > h {
-			index, height := stack[len(stack)-1][0], stack[len(stack)-1][1]
+	for i := 0; i < n; i++ {
+		for len(stack) > 0 && heights[i] < heights[stack[len(stack)-1]] {
+			h := heights[stack[len(stack)-1]]
 			stack = stack[:len(stack)-1]
-			maxArea = max(maxArea, height*(i-index))
-			start = index
+			width := i
+			if len(stack) > 0 {
+				width = i - stack[len(stack)-1] - 1
+			}
+			maxArea = max(maxArea, h*width)
 		}
-		stack = append(stack, []int{start, h})
+		stack = append(stack, i)
 	}
 
-	for _, pair := range stack {
-		index, height := pair[0], pair[1]
-		maxArea = max(maxArea, height*(len(heights)-index))
+	for len(stack) > 0 {
+		h := heights[stack[len(stack)-1]]
+		stack = stack[:len(stack)-1]
+		width := n
+		if len(stack) > 0 {
+			width = n - stack[len(stack)-1] - 1
+		}
+		maxArea = max(maxArea, h*width)
 	}
 
-	return maxArea
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
+	return maxArea  
 }
