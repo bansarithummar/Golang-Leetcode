@@ -1,23 +1,22 @@
-49. Group Anagrams
-
-
-func sortString(w string) string {
-    s := strings.Split(w, "")
-    sort.Strings(s)
-    return strings.Join(s, "")
+func sortString(s string) string {
+	runes := []rune(s)
+	sort.Slice(runes, func(i, j int) bool {
+		return runes[i] < runes[j]
+	})
+	return string(runes)
 }
+
 func groupAnagrams(strs []string) [][]string {
-    groups := make(map[string][]string)
-    for _, str := range strs {
-        sortedStr := sortString(str)
-        groups[sortedStr] = append(groups[sortedStr], str)
-    }
+    anagramMap := make(map[string][]string)
 
-    result := make([][]string, 0, len(groups))
-    for _, group := range groups {
-        result = append(result, group)
-    }
+	for _, str := range strs {
+		sortedStr := sortString(str)
+		anagramMap[sortedStr] = append(anagramMap[sortedStr], str)
+	}
+	result := [][]string{}
+	for _, group := range anagramMap {
+		result = append(result, group)
+	}
 
-    return result
-    
+	return result    
 }
