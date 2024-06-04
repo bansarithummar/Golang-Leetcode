@@ -1,6 +1,11 @@
-110. Balanced Binary Tree
-
-
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
 func isBalanced(root *TreeNode) bool {
     _, balanced := checkBalance(root)
     return balanced
@@ -10,13 +15,13 @@ func checkBalance(node *TreeNode) (int, bool) {
     if node == nil {
         return 0, true
     }
-
-    leftHeight, leftBalanced := checkBalance(node.Left)
-    rightHeight, rightBalanced := checkBalance(node.Right)
-
-    // Check if the current node is balanced and if both subtrees are balanced
-    height := 1 + max(leftHeight, rightHeight)
-    isBalanced := leftBalanced && rightBalanced && math.Abs(float64(leftHeight-rightHeight)) <= 1
-
-    return height, isBalanced    
+    
+    leftDepth, leftBalanced := checkBalance(node.Left)
+    rightDepth, rightBalanced := checkBalance(node.Right)
+    
+    if !leftBalanced || !rightBalanced || math.Abs(float64(leftDepth-rightDepth)) > 1 {
+        return 0, false
+    }
+    
+    return max(leftDepth, rightDepth) + 1, true
 }
