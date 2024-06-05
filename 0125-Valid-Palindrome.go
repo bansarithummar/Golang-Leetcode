@@ -1,22 +1,15 @@
-125. Valid Palindrome
-
-
 func isPalindrome(s string) bool {
-    s = strings.ToLower(s) 
-    left, right := 0, len(s)-1
-
-    for left < right {
-        for left < right && !unicode.IsLetter(rune(s[left])) && !unicode.IsNumber(rune(s[left])) {
-            left++
+    var filtered []rune
+    for _, char := range s {
+        if unicode.IsLetter(char) || unicode.IsDigit(char) {
+            filtered = append(filtered, unicode.ToLower(char))
         }
-        for left < right && !unicode.IsLetter(rune(s[right])) && !unicode.IsNumber(rune(s[right])) {
-            right--
-        }
-        if s[left] != s[right] {
+    }
+    n := len(filtered)
+    for i := 0; i < n/2; i++ {
+        if filtered[i] != filtered[n-1-i] {
             return false
         }
-        left++
-        right--
     }
     return true
 }
