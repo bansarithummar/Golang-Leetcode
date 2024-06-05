@@ -1,25 +1,18 @@
-121. Best Time to Buy and Sell Stock
-
-
 func maxProfit(prices []int) int {
-	l, r := 0, 1
-	maxP := 0
-	for r < len(prices) {
-		if prices[l] < prices[r] {
-			profit := prices[r] - prices[l]
-			maxP = max(maxP, profit)
-		} else {
-			l = r
-		}
-		r++
-	}
-	return maxP
-}
+    if len(prices) == 0 {
+        return 0
+    }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
+    minPrice := prices[0]
+    maxProfit := 0
 
+    for _, price := range prices {
+        if price < minPrice {
+            minPrice = price
+        } else if price - minPrice > maxProfit {
+            maxProfit = price - minPrice
+        }
+    }
+    return maxProfit
+    
+}
