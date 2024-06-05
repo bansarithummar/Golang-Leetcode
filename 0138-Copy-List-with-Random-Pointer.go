@@ -1,22 +1,38 @@
-138. Copy List with Random Pointer
-
+/**
+ * Definition for a Node.
+ * type Node struct {
+ *     Val int
+ *     Next *Node
+ *     Random *Node
+ * }
+ */
 
 func copyRandomList(head *Node) *Node {
     if head == nil {
-        return nil
-    }
-    nodeMap := make(map[*Node]*Node)
-    curr := head
-    for curr != nil {
-        nodeMap[curr] = &Node{Val: curr.Val}
-        curr = curr.Next
-    }
-    curr = head
-    for curr != nil {
-        newNode := nodeMap[curr]
-        newNode.Next = nodeMap[curr.Next]
-        newNode.Random = nodeMap[curr.Random]
-        curr = curr.Next
-    }
-    return nodeMap[head]    
+		return nil
+	}
+	current := head
+	for current != nil {
+		newNode := &Node{Val: current.Val, Next: current.Next}
+		current.Next = newNode
+		current = newNode.Next
+	}
+	current = head
+	for current != nil {
+		if current.Random != nil {
+			current.Next.Random = current.Random.Next
+		}
+		current = current.Next.Next
+	}
+	current = head
+	copyHead := head.Next
+	for current != nil {
+		copyNode := current.Next
+		current.Next = copyNode.Next
+		if copyNode.Next != nil {
+			copyNode.Next = copyNode.Next.Next
+		}
+		current = current.Next
+	}
+	return copyHead
 }
