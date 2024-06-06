@@ -1,6 +1,3 @@
-150. Evaluate Reverse Polish Notation
-
-
 func evalRPN(tokens []string) int {
 	stack := []int{}
 	for _, c := range tokens {
