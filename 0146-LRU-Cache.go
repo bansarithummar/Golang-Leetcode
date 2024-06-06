@@ -1,6 +1,3 @@
-146. LRU Cache
-
-
 type LRUCache struct {
     capacity int
     cache    map[int]*Node
