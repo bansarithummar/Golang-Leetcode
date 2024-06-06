@@ -1,6 +1,3 @@
-143. Reorder List
-
-
 func reorderList(head *ListNode)  {
     if head == nil || head.Next == nil {
         return
