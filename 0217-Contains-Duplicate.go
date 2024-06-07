@@ -1,14 +1,12 @@
-217. Contains Duplicate
-
-
 func containsDuplicate(nums []int) bool {
-    hashset := make(map[int]bool)
-    for _, n := range nums {
-        if hashset[n] {
+    seen := make(map[int]struct{})
+    
+    for _, num := range nums {
+        if _, exists := seen[num]; exists {
             return true
         }
-        hashset[n] = true
+        seen[num] = struct{}{}
     }
+    
     return false
 }
-
