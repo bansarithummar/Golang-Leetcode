@@ -1,4 +1,11 @@
-235. Lowest Common Ancestor of a Binary Search tree
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val   int
+ *     Left  *TreeNode
+ *     Right *TreeNode
+ * }
+ */
 
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     for root != nil {
