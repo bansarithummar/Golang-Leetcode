@@ -1,18 +1,15 @@
-167. Two Sum II - Input Array Is Sorted
-
 func twoSum(numbers []int, target int) []int {
-	l, r := 0, len(numbers)-1
-
-	for l < r {
-		curSum := numbers[l] + numbers[r]
-		if curSum > target {
-			r--
-		} else if curSum < target {
-			l++
-		} else {
-			return []int{l + 1, r + 1}
-		}
-	}
-	return []int{}
+    left, right := 0, len(numbers) - 1
+    
+    for left < right {
+        sum := numbers[left] + numbers[right]
+        if sum == target {
+            return []int{left + 1, right + 1}
+        } else if sum < target {
+            left++
+        } else {
+            right--
+        }
+    }
+    return nil    
 }
-
