@@ -1,6 +1,3 @@
-287. Find the Duplicate Number
-
-
 func findDuplicate(nums []int) int {
     tortoise := nums[0]
     hare := nums[0]
