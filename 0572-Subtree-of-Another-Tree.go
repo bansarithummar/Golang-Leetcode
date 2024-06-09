@@ -1,21 +1,30 @@
-572. Subtree of Another Tree
-
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
 func isSubtree(root *TreeNode, subRoot *TreeNode) bool {
     if root == nil {
         return false
     }
-    if isSame(root, subRoot) {
+    if isSameTree(root, subRoot) {
         return true
     }
     return isSubtree(root.Left, subRoot) || isSubtree(root.Right, subRoot)
 }
 
-func isSame(tree1 *TreeNode, tree2 *TreeNode) bool {
-    if tree1 == nil && tree2 == nil {
+func isSameTree(s *TreeNode, t *TreeNode) bool {
+    if s == nil && t == nil {
         return true
     }
-    if tree1 == nil || tree2 == nil {
+    if s == nil || t == nil {
         return false
     }
-    return tree1.Val == tree2.Val && isSame(tree1.Left, tree2.Left) && isSame(tree1.Right, tree2.Right)    
+    if s.Val != t.Val {
+        return false
+    }
+    return isSameTree(s.Left, t.Left) && isSameTree(s.Right, t.Right)    
 }
