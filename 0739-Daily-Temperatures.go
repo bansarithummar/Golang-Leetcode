@@ -1,6 +1,3 @@
-739. Daily Temperatures
-
-
 func dailyTemperatures(temperatures []int) []int {
     n := len(temperatures)
     ans := make([]int, n)
@@ -13,8 +10,6 @@ func dailyTemperatures(temperatures []int) []int {
             ans[index] = i - index
         }
         stack = append(stack, i)
-    }
-    
+    }    
     return ans 
 }
-
