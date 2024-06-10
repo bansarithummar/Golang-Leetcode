@@ -1,33 +1,30 @@
-875. Koko Eating Bananas
-
-
 func minEatingSpeed(piles []int, h int) int {
-	left, right := 1, max(piles)
-	res := right
-
-	for left <= right {
-		k := (left + right) / 2
-		hours := 0
-		for _, p := range piles {
-			hours += int(math.Ceil(float64(p) / float64(k)))
-		}
-
-		if hours <= h {
-			res = min(res, k)
-			right = k - 1
+    left, right := 1, max(piles)
+	for left < right {
+		mid := left + (right-left)/2
+		if canFinish(piles, mid, h) {
+			right = mid
 		} else {
-			left = k + 1
+			left = mid + 1
 		}
 	}
-	return res
+	return left   
 }
 
-func max(arr []int) int {
-	max := arr[0]
-	for _, num := range arr {
-		if num > max {
-			max = num
+func canFinish(piles []int, k int, h int) bool {
+	time := 0
+	for _, pile := range piles {
+		time += int(math.Ceil(float64(pile) / float64(k)))
+	}
+	return time <= h
+}
+
+func max(piles []int) int {
+	maxVal := piles[0]
+	for _, pile := range piles {
+		if pile > maxVal {
+			maxVal = pile
 		}
 	}
-	return max
+	return maxVal
 }
