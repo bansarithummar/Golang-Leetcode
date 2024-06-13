@@ -56,6 +56,7 @@ Solving Leetcode in Golang
 19. Remove Nth Node From End of List
 21. Merge Two Sorted Lists
 23. Merge k Sorted Lists
+25. Reverse Nodes in k-Group
 138. Copy List with Random Pointer
 141. Linked List Cycle
 143. Reorder List
