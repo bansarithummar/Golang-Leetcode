@@ -39,7 +39,7 @@ Solving Leetcode in Golang
 153. Find Minimum in Rotated Sorted Array
 704. Binary Search
 875. Koko Eating Bananas
-981. Time Based Key-Value Store
+981. Time-Based Key-Value Store
 
 
 # Sliding Window
