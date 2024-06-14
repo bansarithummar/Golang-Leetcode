@@ -67,6 +67,7 @@ Solving Leetcode in Golang
 
 # Trees
 100. Same Tree
+102. Binary Tree Level Order Traversal
 104. Maximum Depth of Binary Tree
 110. Balanced Binary Tree
 226. Invert Binary Tree
