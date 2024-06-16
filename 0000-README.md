@@ -75,6 +75,7 @@ Solving Leetcode in Golang
 235. Lowest Common Ancestor of a Binary Search tree
 543. Diameter of Binary Tree
 572. Subtree of Another Tree
+1448. Count Good Nodes in Binary Tree
 
 
 # Extra
