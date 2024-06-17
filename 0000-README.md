@@ -66,6 +66,7 @@ Solving Leetcode in Golang
 
 
 # Trees
+98. Validate Binary Search Tree
 100. Same Tree
 102. Binary Tree Level Order Traversal
 104. Maximum Depth of Binary Tree
