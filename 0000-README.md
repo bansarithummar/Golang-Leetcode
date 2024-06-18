@@ -73,6 +73,7 @@ Solving Leetcode in Golang
 110. Balanced Binary Tree
 199. Binary Tree Right Side View
 226. Invert Binary Tree
+230. Kth Smallest Element in a BST
 235. Lowest Common Ancestor of a Binary Search tree
 543. Diameter of Binary Tree
 572. Subtree of Another Tree
