@@ -56,7 +56,7 @@ Solving Leetcode in Golang
 19. Remove Nth Node From End of List
 21. Merge Two Sorted Lists
 23. Merge k Sorted Lists
-25. Reverse Nodes in k-Group
+25. Reverse Nodes in k Group
 138. Copy List with Random Pointer
 141. Linked List Cycle
 143. Reorder List
@@ -72,6 +72,7 @@ Solving Leetcode in Golang
 104. Maximum Depth of Binary Tree
 105. Construct Binary Tree from Preorder and Inorder Traversal
 110. Balanced Binary Tree
+124. Binary Tree Maximum Path Sum
 199. Binary Tree Right Side View
 226. Invert Binary Tree
 230. Kth Smallest Element in a BST
