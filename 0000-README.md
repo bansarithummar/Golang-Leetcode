@@ -83,6 +83,10 @@ Solving Leetcode in Golang
 1448. Count Good Nodes in Binary Tree
 
 
+# Tries
+208. Implement Trie(Prefix Tree)
+
+
 # Extra
 1481. Least Number of Unique Integers after K Removals
 1658. Minimum Operations to Reduce X to Zero
