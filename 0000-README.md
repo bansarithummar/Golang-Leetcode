@@ -94,6 +94,7 @@ Solving Leetcode in Golang
 39. Combination Sum
 40. Combination Sum II
 46. Permutations
+51. N-Queens
 78. Subsets
 79. Word Search
 90. Subsets II
