@@ -115,6 +115,7 @@ Solving Leetcode in Golang
 56. Merge Intervals
 57. Insert Interval
 435. Non-overlapping Intervals
+920. Meeting Rooms
 
 
 # Extra
