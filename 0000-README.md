@@ -117,6 +117,7 @@ Solving Leetcode in Golang
 435. Non-overlapping Intervals
 919. Meeting Rooms II
 920. Meeting Rooms
+1851. Minimum Interval to Include Each Query
 
 
 # Extra
