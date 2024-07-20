@@ -121,8 +121,10 @@ Solving Leetcode in Golang
 
 
 # Greedy
+45. Jump Game II
 53. Maximum Subarray
 55. Jump Game
+134. Gas Station
     
 # Extra
 1481. Least Number of Unique Integers after K Removals
