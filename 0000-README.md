@@ -125,6 +125,8 @@ Solving Leetcode in Golang
 53. Maximum Subarray
 55. Jump Game
 134. Gas Station
+846. Hand of Straights
+1899. Merge Triplets to Form Target Triplet
     
 # Extra
 1481. Least Number of Unique Integers after K Removals
