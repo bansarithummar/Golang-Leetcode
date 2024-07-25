@@ -125,6 +125,7 @@ Solving Leetcode in Golang
 53. Maximum Subarray
 55. Jump Game
 134. Gas Station
+678. Valid Parenthesis String
 763. Partition Labels
 846. Hand of Straights
 1899. Merge Triplets to Form Target Triplet
