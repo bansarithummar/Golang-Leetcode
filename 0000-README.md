@@ -130,6 +130,9 @@ Solving Leetcode in Golang
 846. Hand of Straights
 1899. Merge Triplets to Form Target Triplet
 
+
+# Advanced Graphs
+
     
 # Extra
 1481. Least Number of Unique Integers after K Removals
