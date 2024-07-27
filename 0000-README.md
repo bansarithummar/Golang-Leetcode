@@ -133,6 +133,7 @@ Solving Leetcode in Golang
 
 # Advanced Graphs
 332. Reconstruct Itinerary
+1584. Min Cost to Connect All Points
 
     
 # Extra
