@@ -132,6 +132,7 @@ Solving Leetcode in Golang
 
 
 # Advanced Graphs
+269. Alien Dictionary
 332. Reconstruct Itinerary
 743. Network Delay Time
 778. Swim in Rising Water
