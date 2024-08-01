@@ -142,6 +142,7 @@ Solving Leetcode in Golang
 
 # Graphs
 200. Number of Islands
+695. Max Area of Island
 
     
 # Extra
