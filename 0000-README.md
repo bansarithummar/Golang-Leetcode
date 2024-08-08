@@ -143,6 +143,7 @@ Solving Leetcode in Golang
 # Graphs
 130. Surrounded Regions
 133. Clone Graph
+178. Graph Valid Tree
 200. Number of Islands
 207. Course Schedule
 210. Course Schedule II
