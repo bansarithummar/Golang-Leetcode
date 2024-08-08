@@ -47,7 +47,7 @@ func validTree(n int, edges [][]int) bool {
     uf := NewUnionFind(n)
     for _, edge := range edges {
         if !uf.Union(edge[0], edge[1]) {
-            return false // Found a cycle
+            return false 
         }
     }    
     return true
