@@ -41,7 +41,6 @@ func (uf *UnionFind) Union(node1, node2 int) bool {
 }
 
 func validTree(n int, edges [][]int) bool {
-    // A valid tree must have exactly n-1 edges
     if len(edges) != n-1 {
         return false
     }
