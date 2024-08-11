@@ -42,10 +42,10 @@ func (uf *UnionFind) Union(x, y int) bool {
 }
 
 func findRedundantConnection(edges [][]int) []int {
-    uf := NewUnionFind(len(edges) + 1) // +1 because nodes are 1-indexed
+    uf := NewUnionFind(len(edges) + 1) 
     
     for _, edge := range edges {
-        if !uf.Union(edge[0]-1, edge[1]-1) { // Subtract 1 to make the nodes 0-indexed
+        if !uf.Union(edge[0]-1, edge[1]-1) { 
             return edge
         }
     }
