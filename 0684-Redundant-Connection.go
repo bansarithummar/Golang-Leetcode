@@ -20,13 +20,12 @@ func (uf *UnionFind) Find(x int) int {
     return uf.parent[x]
 }
 
-// Union by rank
 func (uf *UnionFind) Union(x, y int) bool {
     rootX := uf.Find(x)
     rootY := uf.Find(y)
 
     if rootX == rootY {
-        return false // They are already connected, meaning this edge is redundant.
+        return false 
     }
 
     // Union by rank
@@ -42,7 +41,6 @@ func (uf *UnionFind) Union(x, y int) bool {
     return true
 }
 
-// Function to find the redundant connection
 func findRedundantConnection(edges [][]int) []int {
     uf := NewUnionFind(len(edges) + 1) // +1 because nodes are 1-indexed
     
@@ -52,5 +50,5 @@ func findRedundantConnection(edges [][]int) []int {
         }
     }
     
-    return nil // Should not reach here
+    return nil 
 }
