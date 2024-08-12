@@ -17,7 +17,7 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 		wordSet[word] = true
 	}
 	if _, found := wordSet[endWord]; !found {
-		return 0 // if endWord is not in the wordList, return 0
+		return 0 
 	}
 	queue := []string{beginWord}
 	visited := make(map[string]bool)
