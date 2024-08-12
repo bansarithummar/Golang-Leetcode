@@ -154,7 +154,11 @@ Solving Leetcode in Golang
 684. Redundant Connection
 695. Max Area of Island
 994. Rotting Oranges
-     
+
+
+# 1-D Dynamic Programming
+70. Climbing Stairs
+         
     
 # Extra
 1481. Least Number of Unique Integers after K Removals
