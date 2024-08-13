@@ -158,7 +158,8 @@ Solving Leetcode in Golang
 
 # 1-D Dynamic Programming
 70. Climbing Stairs
-         
+746. Min Cost Climbing Stairs         
+
     
 # Extra
 1481. Least Number of Unique Integers after K Removals
