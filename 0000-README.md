@@ -157,6 +157,7 @@ Solving Leetcode in Golang
 
 
 # 1-D Dynamic Programming
+5. Longest Palindromic Substring
 70. Climbing Stairs
 198. House Robber
 213. House Robber II
