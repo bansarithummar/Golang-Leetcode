@@ -160,6 +160,7 @@ Solving Leetcode in Golang
 5. Longest Palindromic Substring
 70. Climbing Stairs
 91. Decode Ways
+152. Maximum Product Subarray
 198. House Robber
 213. House Robber II
 322. Coin Change
