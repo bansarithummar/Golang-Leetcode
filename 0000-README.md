@@ -164,6 +164,7 @@ Solving Leetcode in Golang
 152. Maximum Product Subarray
 198. House Robber
 213. House Robber II
+300. Longest Increasing Subsequence
 322. Coin Change
 647. Palindromic Substrings
 746. Min Cost Climbing Stairs         
