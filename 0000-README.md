@@ -168,7 +168,10 @@ Solving Leetcode in Golang
 322. Coin Change
 416. Partition Equal Subset Sum
 647. Palindromic Substrings
-746. Min Cost Climbing Stairs         
+746. Min Cost Climbing Stairs
+
+
+# 2-D DP
 
     
 # Extra
