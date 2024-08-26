@@ -173,6 +173,7 @@ Solving Leetcode in Golang
 
 # 2-D DP
 62. Unique Paths
+1143. Longest Common Subsequence
     
     
 # Extra
