@@ -173,6 +173,7 @@ Solving Leetcode in Golang
 
 # 2-D DP
 62. Unique Paths
+72. Edit Distance
 97. Interleaving String
 115. Distinct Subsequences
 309. Best Time to Buy and Sell Stock with Cooldown
