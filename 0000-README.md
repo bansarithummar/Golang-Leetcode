@@ -177,6 +177,7 @@ Solving Leetcode in Golang
 97. Interleaving String
 115. Distinct Subsequences
 309. Best Time to Buy and Sell Stock with Cooldown
+312. Burst Balloons
 329. Longest Increasing Path in a Matrix
 494. Target Sum
 518. Coin Change II
