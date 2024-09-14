@@ -186,6 +186,7 @@
 
 # Bit Manipulation
 136. Single Number
+190. Reverse Bits
 191. Number of 1 Bits
 338. Counting Bits
     
