@@ -188,6 +188,7 @@
 136. Single Number
 190. Reverse Bits
 191. Number of 1 Bits
+268. Missing Number
 338. Counting Bits
     
     
