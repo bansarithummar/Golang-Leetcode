@@ -1,4 +1,4 @@
-# Golang Leetcode Solution
+# Leetcode Solution - Golang
 
 
 # Arrays & Hashing
