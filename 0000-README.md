@@ -195,7 +195,7 @@
 
 
 # Math & Geometry 
-    
+48. Rotate Image
     
 # Extra
 1481. Least Number of Unique Integers after K Removals
