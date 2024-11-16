@@ -196,8 +196,9 @@
 
 # Math & Geometry 
 48. Rotate Image
+54. Spiral Matrix
 
-  
+      
 # Extra
 1481. Least Number of Unique Integers after K Removals
 1658. Minimum Operations to Reduce X to Zero
