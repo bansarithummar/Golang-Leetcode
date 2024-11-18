@@ -197,6 +197,7 @@
 # Math & Geometry 
 48. Rotate Image
 54. Spiral Matrix
+73. Set Matrix Zeroes
 
       
 # Extra
