@@ -15,7 +15,5 @@ func isHappy(n int) bool {
         seen[n] = true
         n = sumOfSquares(n)
     }
-
-    return n == 1
-    
+    return n == 1   
 }
