@@ -198,6 +198,7 @@
 48. Rotate Image
 54. Spiral Matrix
 73. Set Matrix Zeroes
+202. Happy Number
 
       
 # Extra
