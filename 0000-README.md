@@ -197,6 +197,7 @@
 # Math & Geometry 
 48. Rotate Image
 54. Spiral Matrix
+66. Plus One
 73. Set Matrix Zeroes
 202. Happy Number
 
