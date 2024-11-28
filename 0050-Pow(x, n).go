@@ -14,6 +14,5 @@ func myPow(x float64, n int) float64 {
         x *= x
         n /= 2
     }
-    return result
-    
+    return result   
 }
