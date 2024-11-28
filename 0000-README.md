@@ -196,6 +196,7 @@
 
 # Math & Geometry 
 48. Rotate Image
+50. Pow(x, n)
 54. Spiral Matrix
 66. Plus One
 73. Set Matrix Zeroes
