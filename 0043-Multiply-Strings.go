@@ -22,6 +22,5 @@ func multiply(num1 string, num2 string) string {
             resStr += string(r + '0')
         }
     }
-    return resStr
-    
+    return resStr  
 }
