@@ -30,7 +30,7 @@
 739. Daily Temperatures
 853. Car Fleet
 
-     
+      
 # Binary Search
 4. Median of Two Sorted Arrays
 33. Search in Rotated Sorted Array
