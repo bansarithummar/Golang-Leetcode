@@ -23,14 +23,12 @@ func (this *DetectSquares) Count(point []int) int {
             countSameLine := c
             side := x2 - x
 
-            // Up square
             p1 := [2]int{x, y + side}
             p2 := [2]int{x2, y + side}
             if this.count[p1] > 0 && this.count[p2] > 0 {
                 res += countSameLine * this.count[p1] * this.count[p2]
             }
 
-            // Down square (if side != 0, we can also check the other direction)
             p3 := [2]int{x, y - side}
             p4 := [2]int{x2, y - side}
             if this.count[p3] > 0 && this.count[p4] > 0 {
@@ -38,6 +36,5 @@ func (this *DetectSquares) Count(point []int) int {
             }
         }
     }
-
     return res   
 }
