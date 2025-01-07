@@ -32,6 +32,5 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	if carry > 0 {
 		current.Next = &ListNode{Val: carry}
 	}
-
 	return dummy.Next
 }
