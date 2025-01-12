@@ -27,7 +27,7 @@ func canBeValid(s string, locked string) bool {
             unlockCount++
         } else if s[i] == ')' {
             closeCount++
-        } else { // s[i] == '(' and locked[i] == '1'
+        } else { 
             if closeCount > 0 {
                 closeCount--
             } else if unlockCount > 0 {
