@@ -1,7 +1,7 @@
 func findThePrefixCommonArray(A []int, B []int) []int {
     n := len(A)
     result := make([]int, n)
-    seen := make(map[int]bool) // Tracks numbers seen so far in A and B
+    seen := make(map[int]bool) 
     common := 0               // Tracks the count of common elements
 
     for i := 0; i < n; i++ {
