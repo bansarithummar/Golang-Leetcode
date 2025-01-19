@@ -33,7 +33,6 @@ func trapRainWater(heightMap [][]int) int {
 	h := &MinHeap{}
 	heap.Init(h)
 
-	// Add boundary cells to the heap
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
 			if i == 0 || i == m-1 || j == 0 || j == n-1 {
