@@ -46,7 +46,6 @@ func trapRainWater(heightMap [][]int) int {
 	directions := [][]int{{0, 1}, {1, 0}, {0, -1}, {-1, 0}}
 	waterTrapped := 0
 
-	// Process cells in priority queue
 	for h.Len() > 0 {
 		cell := heap.Pop(h).(Cell)
 		for _, dir := range directions {
@@ -58,7 +57,5 @@ func trapRainWater(heightMap [][]int) int {
 			}
 		}
 	}
-
 	return waterTrapped
-    
 }
