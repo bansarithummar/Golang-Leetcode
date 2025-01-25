@@ -16,7 +16,6 @@ func lexicographicallySmallestArray(nums []int, limit int) []int {
         if nums[indices[i]] - nums[indices[i-1]] <= limit {
             currGroup = append(currGroup, indices[i])
         } else {
-            // Start a new group
             groups = append(groups, currGroup)
             currGroup = []int{indices[i]}
         }
@@ -29,19 +28,15 @@ func lexicographicallySmallestArray(nums []int, limit int) []int {
             return group[i] < group[j]
         })
         
-        // Sort group values
         sortedGroupValues := make([]int, len(group))
         for i, idx := range group {
             sortedGroupValues[i] = nums[idx]
         }
         sort.Ints(sortedGroupValues)
         
-        // Assign sorted values back to original positions
         for i, idx := range group {
             result[idx] = sortedGroupValues[i]
         }
-    }
-    
-    return result
-    
+    }   
+    return result   
 }
