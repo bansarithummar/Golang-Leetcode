@@ -81,6 +81,5 @@ func bfsDepth(graph map[int][]int, start int) int {
         }
         depth++
     }
-    return depth
-    
+    return depth 
 }
