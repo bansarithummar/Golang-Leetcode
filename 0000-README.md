@@ -211,6 +211,7 @@
 1658. Minimum Operations to Reduce X to Zero
 2116. Check if a Parentheses String Can Be Valid
 2149. Rearrange Array Elements by Sign
+2493. Divide Nodes Into the Maximum Number of Groups
 2657. Find the Prefix Common Array of Two Arrays
 2948. Make Lexicographically Smallest Array by Swapping Elements
 3223. Minimum Length of String After Operations
