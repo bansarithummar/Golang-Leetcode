@@ -5,5 +5,4 @@ func isArraySpecial(nums []int) bool {
         }
     }
     return true
-    
 }
