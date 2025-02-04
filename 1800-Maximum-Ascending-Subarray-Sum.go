@@ -13,4 +13,3 @@ func maxAscendingSum(nums []int) int {
     }    
     return maxSum   
 }
-
