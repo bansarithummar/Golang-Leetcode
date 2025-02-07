@@ -1,6 +1,5 @@
 # Leetcode Solution - Golang
 
-
 # Arrays & Hashing
 1. Two Sum
 36. Valid Sudoku 
