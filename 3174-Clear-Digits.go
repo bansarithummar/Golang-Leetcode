@@ -3,13 +3,9 @@ func clearDigits(s string) string {
         return ""
     }
     
-    // Convert to slice for easier manipulation
     chars := []rune(s)
-    
-    // Stack to track non-digit chars
     stack := []rune{}
     
-    // Process each char
     for _, c := range chars {
         if !isDigit(c) {
             stack = append(stack, c)
