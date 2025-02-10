@@ -10,11 +10,9 @@ func clearDigits(s string) string {
         if !isDigit(c) {
             stack = append(stack, c)
         } else if len(stack) > 0 {
-            // Remove closest non-digit to left
             stack = stack[:len(stack)-1]
         }
-    }
-    
+    }   
     return string(stack)
 }
 
