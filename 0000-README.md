@@ -211,6 +211,7 @@
 1658. Minimum Operations to Reduce X to Zero
 1790. Check if One String Swap Can Make Strings Equal
 1800. Maximum Ascending Subarray Sum
+1910. Remove All Occurrences of a Substring
 2116. Check if a Parentheses String Can Be Valid
 2149. Rearrange Array Elements by Sign
 2493. Divide Nodes Into the Maximum Number of Groups
