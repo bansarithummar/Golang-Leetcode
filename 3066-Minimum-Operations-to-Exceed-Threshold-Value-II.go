@@ -21,7 +21,6 @@ func minOperations(nums []int, k int) int {
    return operations
 }
 
-// Heap helper struct for built-in heap interface
 type hp struct{ sort.IntSlice }
 func (h *hp) Push(v interface{}) { h.IntSlice = append(h.IntSlice, v.(int)) }
 func (h *hp) Pop() interface{} {
