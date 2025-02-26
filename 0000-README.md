@@ -211,6 +211,7 @@
 1079. Letter Tile Possibilities
 1481. Least Number of Unique Integers after K Removals
 1658. Minimum Operations to Reduce X to Zero
+1749. Maximum Absolute Sum of Any Subarray     
 1790. Check if One String Swap Can Make Strings Equal
 1800. Maximum Ascending Subarray Sum
 1910. Remove All Occurrences of a Substring
