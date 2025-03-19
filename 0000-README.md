@@ -225,6 +225,7 @@
 3066. Minimum Operations to Exceed Threshold Value II      
 3151. Special Array I
 3174. Clear Digits
+3191. Minimum Operations to Make Binary Array Elements Equal to One I     
 3223. Minimum Length of String After Operations
 
 
