@@ -38,7 +38,5 @@ func minimumCost(n int, edges [][]int, query [][]int) []int {
 			result[i] = minPathCost[findRoot(parent, start)]
 		}
 	}
-
-	return result
-    
+	return result    
 }
