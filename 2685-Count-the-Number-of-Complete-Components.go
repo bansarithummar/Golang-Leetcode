@@ -13,7 +13,6 @@ func countCompleteComponents(n int, edges [][]int) int {
         if !visited[i] {
             vertexCount, edgeCount := 0, 0
             
-            // DFS to count vertices and edges
             dfs(i, graph, visited, &vertexCount, &edgeCount)
             if edgeCount == vertexCount * (vertexCount - 1) {
                 completeCount++
