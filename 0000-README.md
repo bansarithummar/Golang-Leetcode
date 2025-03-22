@@ -220,6 +220,7 @@
 2149. Rearrange Array Elements by Sign
 2493. Divide Nodes Into the Maximum Number of Groups
 2657. Find the Prefix Common Array of Two Arrays
+2685. Count the Number of Complete Components      
 2698. Find the Punishment Number of an Integer      
 2948. Make Lexicographically Smallest Array by Swapping Elements
 3066. Minimum Operations to Exceed Threshold Value II
