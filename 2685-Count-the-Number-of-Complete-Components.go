@@ -11,14 +11,10 @@ func countCompleteComponents(n int, edges [][]int) int {
     
     for i := 0; i < n; i++ {
         if !visited[i] {
-            // Track vertices count and edges count in this component
             vertexCount, edgeCount := 0, 0
             
             // DFS to count vertices and edges
             dfs(i, graph, visited, &vertexCount, &edgeCount)
-            
-            // For a complete graph with v vertices, it should have v*(v-1)/2 edges
-            // Each edge is counted twice in our adjacency list
             if edgeCount == vertexCount * (vertexCount - 1) {
                 completeCount++
             }
@@ -28,7 +24,6 @@ func countCompleteComponents(n int, edges [][]int) int {
     return completeCount
 }
 
-// DFS to count vertices and edges in a component
 func dfs(node int, graph [][]int, visited []bool, vertexCount *int, edgeCount *int) {
     visited[node] = true
     *vertexCount++
