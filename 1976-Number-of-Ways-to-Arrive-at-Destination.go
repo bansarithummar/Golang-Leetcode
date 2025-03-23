@@ -6,44 +6,35 @@ func countPaths(n int, roads [][]int) int {
         graph[v] = append(graph[v], [2]int{u, time})
     }
     
-    // Initialize distance and ways arrays
     const mod = 1_000_000_007
     dist := make([]int64, n)
     ways := make([]int, n)
     
-    // Set initial values
     for i := 0; i < n; i++ {
         dist[i] = math.MaxInt64
     }
     dist[0] = 0
     ways[0] = 1
-    
-    // Priority queue for Dijkstra's algorithm
+
     pq := &PriorityQueue{}
     heap.Push(pq, &Item{node: 0, distance: 0})
     
-    // Dijkstra's algorithm
     for pq.Len() > 0 {
         item := heap.Pop(pq).(*Item)
         node, distance := item.node, item.distance
         
-        // Skip if we've found a better path already
         if int64(distance) > dist[node] {
             continue
         }
-        
-        // Process neighbors
         for _, neighbor := range graph[node] {
             nextNode, time := neighbor[0], neighbor[1]
             newDist := dist[node] + int64(time)
             
             if newDist < dist[nextNode] {
-                // Found a shorter path
                 dist[nextNode] = newDist
                 ways[nextNode] = ways[node]
                 heap.Push(pq, &Item{node: nextNode, distance: int(newDist)})
             } else if newDist == dist[nextNode] {
-                // Found another path with the same length
                 ways[nextNode] = (ways[nextNode] + ways[node]) % mod
             }
         }
