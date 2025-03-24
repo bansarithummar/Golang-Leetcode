@@ -227,6 +227,7 @@
 3066. Minimum Operations to Exceed Threshold Value II
 3108. Minimum Cost Walk in Weighted Graph
 3151. Special Array I
+3169. Count Days Without Meetings      
 3174. Clear Digits
 3191. Minimum Operations to Make Binary Array Elements Equal to One I     
 3223. Minimum Length of String After Operations
