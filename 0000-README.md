@@ -217,6 +217,7 @@
 1910. Remove All Occurrences of a Substring
 1976. Number of Ways to Arrive at Destination
 1980. Find Unique Binary String      
+2033. Minimum Operations to Make a Uni-Value Grid
 2116. Check if a Parentheses String Can Be Valid
 2149. Rearrange Array Elements by Sign
 2493. Divide Nodes Into the Maximum Number of Groups
