@@ -40,5 +40,4 @@ func findDominantElement(nums []int) int {
     }
     
     return candidate
-    
 }
