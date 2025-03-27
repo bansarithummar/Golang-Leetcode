@@ -224,6 +224,7 @@
 2657. Find the Prefix Common Array of Two Arrays
 2685. Count the Number of Complete Components      
 2698. Find the Punishment Number of an Integer      
+2780. Minimum Index of a Valid Split
 2948. Make Lexicographically Smallest Array by Swapping Elements
 3066. Minimum Operations to Exceed Threshold Value II
 3108. Minimum Cost Walk in Weighted Graph
