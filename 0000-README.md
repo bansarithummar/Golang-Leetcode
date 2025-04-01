@@ -228,7 +228,7 @@
 2780. Minimum Index of a Valid Split
 2948. Make Lexicographically Smallest Array by Swapping Elements
 3066. Minimum Operations to Exceed Threshold Value II
-3108. Minimum Cost Walk in Weighted Graph
+3108. Minimum Cost Walk-in Weighted Graph
 3151. Special Array I
 3169. Count Days Without Meetings      
 3174. Clear Digits
