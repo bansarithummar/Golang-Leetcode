@@ -219,6 +219,7 @@
 1980. Find Unique Binary String      
 2033. Minimum Operations to Make a Uni-Value Grid
 2116. Check if a Parentheses String Can Be Valid
+2140. Solving Questions With Brainpower      
 2149. Rearrange Array Elements by Sign
 2493. Divide Nodes Into the Maximum Number of Groups
 2657. Find the Prefix Common Array of Two Arrays
