@@ -5,15 +5,12 @@ func maximumTripletValue(nums []int) int64 {
     maxSoFar := nums[0]
     
     for j := 1; j < n-1; j++ {
-        // Update max difference for position j
         maxDiff[j] = max(maxDiff[j-1], maxSoFar - nums[j])
-        // Update max element seen so far
         maxSoFar = max(maxSoFar, nums[j])
     }
     
     result := int64(0)
     for k := 2; k < n; k++ {
-        // For each position k, find maximum (nums[i] - nums[j]) * nums[k]
         value := int64(maxDiff[k-1] * nums[k])
         result = max64(result, value)
     }
