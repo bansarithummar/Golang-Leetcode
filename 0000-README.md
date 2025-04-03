@@ -227,6 +227,7 @@
 2698. Find the Punishment Number of an Integer      
 2780. Minimum Index of a Valid Split
 2873. Maximum Value of an Ordered Triplet I
+2874. Maximum Value of an Ordered Triplet II
 2948. Make Lexicographically Smallest Array by Swapping Elements
 3066. Minimum Operations to Exceed Threshold Value II
 3108. Minimum Cost Walk-in Weighted Graph
