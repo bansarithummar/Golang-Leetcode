@@ -12,10 +12,8 @@ func minimumOperations(nums []int) int {
         if hasDistinctElements(remaining) {
             return ops
         }
-    }
-    
-    return (n+2)/3
-  
+    }  
+    return (n+2)/3 
 }
 
 func hasDistinctElements(nums []int) bool {
