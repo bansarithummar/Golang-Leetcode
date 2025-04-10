@@ -230,6 +230,7 @@
 2873. Maximum Value of an Ordered Triplet I
 2874. Maximum Value of an Ordered Triplet II
 2948. Make Lexicographically Smallest Array by Swapping Elements
+2999. Count the Number of Powerful Integers
 3066. Minimum Operations to Exceed Threshold Value II
 3108. Minimum Cost Walk-in Weighted Graph
 3151. Special Array I
