@@ -5,17 +5,14 @@ func numberOfPowerfulInt(start int64, finish int64, limit int, s string) int64 {
         }
     }
     
-    // Function to count powerful integers up to n
     countUpTo := func(n int64) int64 {
         nStr := strconv.FormatInt(n, 10)
         suffixLen := len(s)
         
-        // If n's length is less than suffix length, no powerful integers
         if len(nStr) < suffixLen {
             return 0
         }
         
-        // Memoization map for dynamic programming
         memo := make(map[string]int64)
         
         // Recursive DP function
