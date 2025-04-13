@@ -216,8 +216,9 @@
 1790. Check if One String Swap Can Make Strings Equal
 1800. Maximum Ascending Subarray Sum
 1910. Remove All Occurrences of a Substring
+1922. Count Good Numbers
 1976. Number of Ways to Arrive at Destination
-1980. Find Unique Binary String      
+1980. Find Unique Binary String  
 2033. Minimum Operations to Make a Uni-Value Grid
 2116. Check if a Parentheses String Can Be Valid
 2140. Solving Questions With Brainpower      
