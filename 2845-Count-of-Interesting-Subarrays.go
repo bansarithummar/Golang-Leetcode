@@ -1,7 +1,7 @@
 func countInterestingSubarrays(nums []int, modulo int, k int) int64 {
     count := int64(0)
     prefixModCount := map[int]int{}
-    prefixModCount[0] = 1 // base case: prefix sum = 0
+    prefixModCount[0] = 1 
 
     curr := 0
     for _, num := range nums {
