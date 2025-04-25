@@ -230,6 +230,7 @@
 2698. Find the Punishment Number of an Integer      
 2780. Minimum Index of a Valid Split
 2799. Count Complete Subarrays in an Array     
+2845. Count of Interesting Subarrays
 2873. Maximum Value of an Ordered Triplet I
 2874. Maximum Value of an Ordered Triplet II
 2948. Make Lexicographically Smallest Array by Swapping Elements
