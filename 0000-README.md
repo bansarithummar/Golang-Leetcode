@@ -221,6 +221,7 @@
 1976. Number of Ways to Arrive at Destination
 1980. Find Unique Binary String  
 2033. Minimum Operations to Make a Uni-Value Grid
+2071. Maximum Number of Tasks You Can Assign
 2116. Check if a Parentheses String Can Be Valid
 2140. Solving Questions With Brainpower      
 2149. Rearrange Array Elements by Sign
