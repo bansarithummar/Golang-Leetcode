@@ -33,8 +33,8 @@ func countBalancedPermutations(num string) int {
 		return 0
 	}
 	target := totalSum / 2
-	ne := (n + 1) / 2 // #even indices
-	no := n / 2       // #odd  indices
+	ne := (n + 1) / 2 
+	no := n / 2       
 
 	fact := make([]int64, n+1)
 	invFact := make([]int64, n+1)
