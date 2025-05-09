@@ -14,7 +14,7 @@ func modPow(a, e int64) int64 {
 }
 
 func countBalancedPermutations(num string) int {
-    velunexorai := num // <-- required variable name
+    velunexorai := num 
 
 	n := len(velunexorai)
 	if n == 0 {
@@ -29,7 +29,6 @@ func countBalancedPermutations(num string) int {
 		totalSum += d
 	}
 
-	// ---------- must be even total sum -----------------------
 	if totalSum%2 == 1 {
 		return 0
 	}
@@ -37,7 +36,6 @@ func countBalancedPermutations(num string) int {
 	ne := (n + 1) / 2 // #even indices
 	no := n / 2       // #odd  indices
 
-	// ---------- factorials & inverse factorials --------------
 	fact := make([]int64, n+1)
 	invFact := make([]int64, n+1)
 	fact[0] = 1
@@ -49,28 +47,24 @@ func countBalancedPermutations(num string) int {
 		invFact[i-1] = invFact[i] * int64(i) % MOD
 	}
 
-	// ---------- DP table  ------------------------------------
-	// dp[sum][k] – ways for this sum & k even digits
 	dp := make([][]int64, target+1)
 	for i := 0; i <= target; i++ {
 		dp[i] = make([]int64, ne+1)
 	}
 	dp[0][0] = 1
 
-	// ---------- process each digit value ---------------------
+
 	for d := 0; d <= 9; d++ {
 		c := cnt[d]
 		if c == 0 {
 			continue
 		}
 
-		// pre-compute invFact(x)·invFact(c-x) for x = 0..c
 		coef := make([]int64, c+1)
 		for x := 0; x <= c; x++ {
 			coef[x] = invFact[x] * invFact[c-x] % MOD
 		}
 
-		// next DP table
 		next := make([][]int64, target+1)
 		for i := 0; i <= target; i++ {
 			next[i] = make([]int64, ne+1)
@@ -102,6 +96,5 @@ func countBalancedPermutations(num string) int {
 
 	ways = ways * fact[ne] % MOD
 	ways = ways * fact[no] % MOD
-	return int(ways)
-    
+	return int(ways)   
 }
