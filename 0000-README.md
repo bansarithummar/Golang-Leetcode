@@ -78,6 +78,7 @@
 230. Kth Smallest Element in a BST
 235. Lowest Common Ancestor of a Binary Search Tree
 297. Serialize and Deserialize Binary Tree
+440. K-th Smallest in Lexicographical Order
 543. Diameter of Binary Tree
 572. Subtree of Another Tree
 1448. Count Good Nodes in Binary Tree
