@@ -1,7 +1,7 @@
 func stepsBetween(n, prefix int64) int64 {
 	steps, first, next := int64(0), prefix, prefix+1
 	for first <= n {
-		steps += min(n+1, next) - first // nodes on this level
+		steps += min(n+1, next) - first 
 		first *= 10                     
 		next *= 10
 	}
@@ -13,8 +13,8 @@ func findKthNumber(n int, k int) int {
 		return 1
 	}
 
-	cur := int64(1) // first lexicographical number
-	k--             // we are already at position 1
+	cur := int64(1)
+	k--            
 
 	n64 := int64(n)
 	for k > 0 {
