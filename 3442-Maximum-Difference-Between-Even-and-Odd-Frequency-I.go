@@ -11,11 +11,11 @@ func maxDifference(s string) int {
 		if f == 0 {
 			continue 
 		}
-		if f&1 == 1 { // odd
+		if f&1 == 1 { 
 			if f > maxOdd {
 				maxOdd = f
 			}
-		} else { // even (>0)
+		} else { 
 			if f < minEven {
 				minEven = f
 			}
