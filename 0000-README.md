@@ -51,6 +51,7 @@
 239. Sliding Window Maximum
 424. Longest Repeating Character Replacement
 567. Permutation in String
+3445. Maximum Difference Between Even and Odd Frequency II
 
 
 # Linked List
