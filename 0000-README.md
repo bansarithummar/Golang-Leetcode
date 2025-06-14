@@ -134,8 +134,9 @@
 763. Partition Labels
 846. Hand of Straights
 1899. Merge Triplets to Form Target Triplet
+2566. Maximum Difference by Remapping a Digit
 
-
+      
 # Advanced Graphs
 269. Alien Dictionary
 332. Reconstruct Itinerary
