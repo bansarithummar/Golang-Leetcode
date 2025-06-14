@@ -1,7 +1,6 @@
 func minMaxDifference(num int) int {
     s := strconv.Itoa(num)
 
-    // build max value
     maxRunes := []rune(s)
     var r rune
     for _, ch := range maxRunes {
@@ -19,7 +18,6 @@ func minMaxDifference(num int) int {
     }
     maxVal, _ := strconv.Atoi(string(maxRunes))
 
-    // build min value
     minRunes := []rune(s)
     r = 0
     for _, ch := range minRunes {
@@ -37,6 +35,5 @@ func minMaxDifference(num int) int {
     }
     minVal, _ := strconv.Atoi(string(minRunes))
 
-    return maxVal - minVal
-    
+    return maxVal - minVal   
 }
