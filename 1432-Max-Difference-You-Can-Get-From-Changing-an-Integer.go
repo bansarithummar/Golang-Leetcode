@@ -1,7 +1,6 @@
 func maxDiff(num int) int {
     s := strconv.Itoa(num)
 
-    // build max value
     maxBytes := []byte(s)
     var tgt byte
     for _, b := range maxBytes {
@@ -19,7 +18,6 @@ func maxDiff(num int) int {
     }
     maxVal, _ := strconv.Atoi(string(maxBytes))
 
-    // build min value
     minBytes := []byte(s)
     if minBytes[0] != '1' {
         tgt = minBytes[0]
@@ -47,5 +45,4 @@ func maxDiff(num int) int {
     minVal, _ := strconv.Atoi(string(minBytes))
 
     return maxVal - minVal
-    
 }
