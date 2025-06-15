@@ -133,6 +133,7 @@
 678. Valid Parenthesis String
 763. Partition Labels
 846. Hand of Straights
+1432. Max Difference You Can Get From Changing an Integer
 1899. Merge Triplets to Form Target Triplet
 2566. Maximum Difference by Remapping a Digit
 
