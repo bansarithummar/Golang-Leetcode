@@ -10,6 +10,5 @@ func maximumDifference(nums []int) int {
             minVal = v
         }
     }
-    return maxDiff
-    
+    return maxDiff  
 }
