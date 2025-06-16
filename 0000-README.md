@@ -11,6 +11,7 @@
 347. Top K Frequent Elements
 238. Product of Array Except Self
 271. Encode and Decode Strings
+2016. Maximum Difference Between Increasing Elements
 2616. Minimize the Maximum Difference of Pairs
 3024. Type of Triangle
 3423. Maximum Difference Between Adjacent Elements in a Circular Array
