@@ -1,4 +1,3 @@
-
 const MOD int64 = 1_000_000_007
 
 func modPow(a, b int64) int64 {
