@@ -213,7 +213,8 @@
 73. Set Matrix Zeroes
 202. Happy Number
 2013. Detect Squares
-
+3405. Count the Number of Arrays with K Matching Adjacent Elements
+      
       
 # Extra Problems
 368. Largest Divisible Subset
