@@ -1,7 +1,7 @@
 # Leetcode Solution - Golang
 
 
-# Arrays & Hashing
+## Arrays & Hashing
 1. Two Sum
 36. Valid Sudoku 
 49. Group Anagrams
@@ -19,7 +19,7 @@
 3442. Maximum Difference Between Even and Odd Frequency I  
 
 
-# Two Pointers
+## Two Pointers
 11. Container With Most Water
 15. 3Sum
 42. Trapping Rain Water
@@ -27,7 +27,7 @@
 167. Two Sum II - Input Array Is Sorted
      
 
-# Stack
+## Stack
 20. Valid Parentheses
 22. Generate Parentheses
 84. Largest Rectangle in Histogram
@@ -37,7 +37,7 @@
 853. Car Fleet
 
       
-# Binary Search
+## Binary Search
 4. Median of Two Sorted Arrays
 33. Search in Rotated Sorted Array
 74. Search a 2D Matrix
@@ -47,7 +47,7 @@
 981. Time-Based Key-Value Store
 
 
-# Sliding Window
+## Sliding Window
 3. Longest Substring Without Repeating Characters
 76. Minimum Window Substring
 121. Best Time to Buy and Sell Stock
@@ -57,7 +57,7 @@
 3445. Maximum Difference Between Even and Odd Frequency II
 
 
-# Linked List
+## Linked List
 2. Add Two Numbers
 19. Remove Nth Node From End of List
 21. Merge Two Sorted Lists
@@ -71,7 +71,7 @@
 287. Find the Duplicate Number
 
 
-# Trees
+## Trees
 98. Validate Binary Search Tree
 100. Same Tree
 102. Binary Tree Level Order Traversal
@@ -90,13 +90,13 @@
 1448. Count Good Nodes in Binary Tree
 
 
-# Tries
+## Tries
 208. Implement Trie(Prefix Tree)
 211. Design Add and Search Words Data Structure
 212. Word Search II
      
 
-# Backtracking
+## Backtracking
 17. Letter Combinations of a Phone Number
 39. Combination Sum
 40. Combination Sum II
@@ -108,7 +108,7 @@
 131. Palindrome Partitioning
 
 
-# Heap/ Priority Queue
+## Heap/ Priority Queue
 215. Kth Largest Element in an Array
 295. Find Median from Data Stream
 355. Design Twitter
@@ -118,7 +118,7 @@
 1046. Last Stone Weight
 
 
-# Intervals
+## Intervals
 56. Merge Intervals
 57. Insert Interval
 435. Non-overlapping Intervals
@@ -127,7 +127,7 @@
 1851. Minimum Interval to Include Each Query
 
 
-# Greedy
+## Greedy
 45. Jump Game II
 53. Maximum Subarray
 55. Jump Game
@@ -140,7 +140,7 @@
 2566. Maximum Difference by Remapping a Digit
 
       
-# Advanced Graphs
+## Advanced Graphs
 269. Alien Dictionary
 332. Reconstruct Itinerary
 743. Network Delay Time
@@ -149,7 +149,7 @@
 1584. Min Cost to Connect All Points
 
 
-# Graphs
+## Graphs
 127. Word Ladder
 130. Surrounded Regions
 133. Clone Graph
@@ -165,7 +165,7 @@
 994. Rotting Oranges
 
 
-# 1-D Dynamic Programming
+## 1-D Dynamic Programming
 5. Longest Palindromic Substring
 70. Climbing Stairs
 91. Decode Ways
@@ -181,7 +181,7 @@
 3335. Total Characters in String After Transformations I
       
 
-# 2-D DP
+## 2-D DP
 10. Regular Expression Matching
 62. Unique Paths
 72. Edit Distance
@@ -195,7 +195,7 @@
 1143. Longest Common Subsequence
 
 
-# Bit Manipulation
+## Bit Manipulation
 7. Reverse Integer
 136. Single Number
 190. Reverse Bits
@@ -205,7 +205,7 @@
 338. Counting Bits
 
 
-# Math & Geometry 
+## Math & Geometry 
 43. Multiply Strings
 48. Rotate Image
 50. Pow(x, n)
@@ -217,7 +217,7 @@
 3405. Count the Number of Arrays with K Matching Adjacent Elements
       
       
-# Extra Problems
+## Extra Problems
 368. Largest Divisible Subset
 407. Trapping Rain Water II
 838. Push Dominoes
