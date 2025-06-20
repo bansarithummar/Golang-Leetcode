@@ -216,7 +216,8 @@
 202. Happy Number
 2013. Detect Squares
 3405. Count the Number of Arrays with K Matching Adjacent Elements
-      
+3443. Maximum Manhattan Distance After K Changes
+            
       
 ## Extra Problems
 368. Largest Divisible Subset
