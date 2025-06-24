@@ -27,7 +27,8 @@
 42. Trapping Rain Water
 125. Valid Palindrome
 167. Two Sum II - Input Array Is Sorted
-     
+2200. Find All K-Distant Indices in an Array
+           
 
 ## Stack
 20. Valid Parentheses
