@@ -48,7 +48,8 @@
 704. Binary Search
 875. Koko Eating Bananas
 981. Time-Based Key-Value Store
-
+2040. Kth Smallest Product of Two Sorted Arrays
+      
 
 ## Sliding Window
 3. Longest Substring Without Repeating Characters
