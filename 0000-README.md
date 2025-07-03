@@ -266,6 +266,7 @@
 3174. Clear Digits
 3191. Minimum Operations to Make Binary Array Elements Equal to One I     
 3223. Minimum Length of String After Operations
+3304. Find the K-th Character in String Game I
 3330. Find the Original Typed String I
 3343. Count Number of Balanced Permutations
 3392. Count Subarrays of Length Three With a Condition
