@@ -12,6 +12,7 @@
 238. Product of Array Except Self
 271. Encode and Decode Strings
 1394. Find Lucky Integer in an Array
+1865. Finding Pairs With a Certain Sum
 2016. Maximum Difference Between Increasing Elements
 2294. Partition Array Such That Maximum Difference Is K
 2616. Minimize the Maximum Difference of Pairs
