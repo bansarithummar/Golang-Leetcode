@@ -11,6 +11,7 @@
 347. Top K Frequent Elements
 238. Product of Array Except Self
 271. Encode and Decode Strings
+1353. Maximum Number of Events That Can Be Attended
 1394. Find Lucky Integer in an Array
 1865. Finding Pairs With a Certain Sum
 2016. Maximum Difference Between Increasing Elements
