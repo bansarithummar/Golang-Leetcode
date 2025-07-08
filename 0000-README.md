@@ -13,6 +13,7 @@
 271. Encode and Decode Strings
 1353. Maximum Number of Events That Can Be Attended
 1394. Find Lucky Integer in an Array
+1751. Maximum Number of Events That Can Be Attended II
 1865. Finding Pairs With a Certain Sum
 2016. Maximum Difference Between Increasing Elements
 2294. Partition Array Such That Maximum Difference Is K
