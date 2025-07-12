@@ -1,7 +1,7 @@
-# Leetcode Solution Golang
+# Leetcode Solution - Golang
 
 
-## Arrays & Hashing
+### Arrays & Hashing
 1. Two Sum
 36. Valid Sudoku 
 49. Group Anagrams
