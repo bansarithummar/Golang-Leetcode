@@ -47,7 +47,7 @@
 853. Car Fleet
 
       
-## Binary Search
+### Binary Search
 4. Median of Two Sorted Arrays
 33. Search in Rotated Sorted Array
 74. Search a 2D Matrix
