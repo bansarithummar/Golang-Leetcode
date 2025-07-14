@@ -37,7 +37,7 @@
 2200. Find All K-Distant Indices in an Array
            
 
-## Stack
+### Stack
 20. Valid Parentheses
 22. Generate Parentheses
 84. Largest Rectangle in Histogram
