@@ -82,7 +82,7 @@
 287. Find the Duplicate Number
 
 
-## Trees
+### Trees
 98. Validate Binary Search Tree
 100. Same Tree
 102. Binary Tree Level Order Traversal
