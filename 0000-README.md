@@ -119,7 +119,7 @@
 131. Palindrome Partitioning
 
 
-## Heap/ Priority Queue
+### Heap/ Priority Queue
 215. Kth Largest Element in an Array
 295. Find Median from Data Stream
 355. Design Twitter
