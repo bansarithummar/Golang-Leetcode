@@ -152,7 +152,7 @@
 2566. Maximum Difference by Remapping a Digit
 
       
-## Advanced Graphs
+### Advanced Graphs
 269. Alien Dictionary
 332. Reconstruct Itinerary
 743. Network Delay Time
