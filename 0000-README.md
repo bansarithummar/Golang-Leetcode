@@ -129,7 +129,7 @@
 1046. Last Stone Weight
 
 
-## Intervals
+### Intervals
 56. Merge Intervals
 57. Insert Interval
 435. Non-overlapping Intervals
