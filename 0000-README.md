@@ -161,7 +161,7 @@
 1584. Min Cost to Connect All Points
 
 
-## Graphs
+### Graphs
 127. Word Ladder
 130. Surrounded Regions
 133. Clone Graph
