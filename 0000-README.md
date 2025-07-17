@@ -138,7 +138,7 @@
 1851. Minimum Interval to Include Each Query
 
 
-## Greedy
+### Greedy
 45. Jump Game II
 53. Maximum Subarray
 55. Jump Game
