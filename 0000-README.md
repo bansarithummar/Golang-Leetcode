@@ -177,7 +177,7 @@
 994. Rotting Oranges
 
 
-## 1-D Dynamic Programming
+### 1-D Dynamic Programming
 5. Longest Palindromic Substring
 70. Climbing Stairs
 91. Decode Ways
