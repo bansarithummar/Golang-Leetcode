@@ -218,7 +218,7 @@
 338. Counting Bits
 
 
-## Math & Geometry 
+### Math & Geometry 
 43. Multiply Strings
 48. Rotate Image
 50. Pow(x, n)
