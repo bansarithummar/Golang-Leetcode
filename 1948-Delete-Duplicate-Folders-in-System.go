@@ -7,7 +7,6 @@ type Node struct {
 func deleteDuplicateFolder(paths [][]string) [][]string {
     root := &Node{children: make(map[string]*Node)}
 
-	// Step 1: Build folder tree
 	for _, path := range paths {
 		curr := root
 		for _, folder := range path {
@@ -21,7 +20,6 @@ func deleteDuplicateFolder(paths [][]string) [][]string {
 		}
 	}
 
-	// Step 2: Serialize subtrees and mark duplicates
 	serialMap := map[string][]*Node{}
 	var serialize func(*Node) string
 	serialize = func(node *Node) string {
@@ -64,6 +62,5 @@ func deleteDuplicateFolder(paths [][]string) [][]string {
 	}
 	dfs(root, []string{})
 
-	return res
-    
+	return res    
 }
