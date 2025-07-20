@@ -208,7 +208,7 @@
 1143. Longest Common Subsequence
 
 
-## Bit Manipulation
+### Bit Manipulation
 7. Reverse Integer
 136. Single Number
 190. Reverse Bits
