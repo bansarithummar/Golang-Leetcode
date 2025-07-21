@@ -248,6 +248,7 @@
 1910. Remove All Occurrences of a Substring
 1920. Build Array from Permutation
 1922. Count Good Numbers
+1957. Delete Characters to Make Fancy String
 1976. Number of Ways to Arrive at Destination
 1980. Find Unique Binary String  
 2033. Minimum Operations to Make a Uni-Value Grid
