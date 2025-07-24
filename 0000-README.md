@@ -101,6 +101,7 @@
 543. Diameter of Binary Tree
 572. Subtree of Another Tree
 1448. Count Good Nodes in Binary Tree
+2322. Minimum Score After Removals on a Tree
 
 
 ### Tries
