@@ -220,6 +220,7 @@
 371. Sum of Two Integers
 338. Counting Bits
 2411. Smallest Subarrays With Maximum Bitwise OR
+2419. Longest Subarray With Maximum Bitwise AND
 
 
 ### Math & Geometry 
