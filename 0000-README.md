@@ -5,6 +5,7 @@
 1. Two Sum
 36. Valid Sudoku 
 49. Group Anagrams
+118. Pascal's Triangle
 128. Longest Consecutive Sequence
 217. Contains Duplicate
 242. Valid Anagram
