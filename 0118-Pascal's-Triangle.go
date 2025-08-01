@@ -11,7 +11,5 @@ func generate(numRows int) [][]int {
 
         res = append(res, row)
     }
-
     return res
-    
 }
