@@ -6,13 +6,13 @@ func minCost(basket1 []int, basket2 []int) int64 {
 	for _, v := range basket2 {
 		count[v]++
 	}
-	// check if possible
+	
 	for _, v := range count {
 		if v%2 != 0 {
 			return -1
 		}
 	}
-	// build surplus lists
+	
 	extra1 := []int{}
 	extra2 := []int{}
 	cnt1 := make(map[int]int)
@@ -40,7 +40,7 @@ func minCost(basket1 []int, basket2 []int) int64 {
 	}
 	sort.Ints(extra1)
 	sort.Sort(sort.Reverse(sort.IntSlice(extra2)))
-	// Find global min
+	
 	all := append(basket1, basket2...)
 	minValue := all[0]
 	for _, v := range all {
