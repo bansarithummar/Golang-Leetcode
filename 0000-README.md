@@ -32,8 +32,9 @@
 3439. Reschedule Meetings for Maximum Free Time I
 3440. Reschedule Meetings for Maximum Free Time II
 3442. Maximum Difference Between Even and Odd Frequency I  
+3477. Fruits Into Baskets II
 
-
+      
 ### Two Pointers
 11. Container With Most Water
 15. 3Sum
