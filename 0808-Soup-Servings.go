@@ -1,6 +1,6 @@
 func soupServings(n int) float64 {
     if n >= 4800 {
-        return 1.0 // Optimization for large n
+        return 1.0 
     }
 
     dp := make(map[[2]int]float64)
