@@ -248,6 +248,7 @@
             
       
 ### Extra Problems
+231. Power of Two
 368. Largest Divisible Subset
 407. Trapping Rain Water II
 838. Push Dominoes
