@@ -24,6 +24,7 @@
 2106. Maximum Fruits Harvested After at Most K Steps
 2294. Partition Array Such That Maximum Difference Is K
 2402. Meeting Rooms III
+2438. Range Product Queries of Powers
 2561. Rearranging Fruits
 2616. Minimize the Maximum Difference of Pairs
 2966. Divide Array Into Arrays With Max Difference
