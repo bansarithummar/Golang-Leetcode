@@ -2,7 +2,6 @@
 func numberOfWays(n int, x int) int {
     const MOD = 1_000_000_007
 
-	// precompute all k^x <= n
 	pows := make([]int, 0)
 	for base := 1; ; base++ {
 		val := 1
@@ -13,7 +12,7 @@ func numberOfWays(n int, x int) int {
 			}
 		}
 		if val > n {
-			if base == 1 { // handle when even 1^x > n (shouldn't happen for positive n,x)
+			if base == 1 { 
 				break
 			}
 			break
@@ -21,7 +20,6 @@ func numberOfWays(n int, x int) int {
 		pows = append(pows, val)
 	}
 
-	// dp[s] = number of ways to make sum s using unique powers (subset count)
 	dp := make([]int, n+1)
 	dp[0] = 1
 
@@ -34,6 +32,5 @@ func numberOfWays(n int, x int) int {
 		}
 	}
 
-	return dp[n]
-    
+	return dp[n] 
 }
