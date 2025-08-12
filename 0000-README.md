@@ -203,6 +203,7 @@
 647. Palindromic Substrings
 746. Min Cost Climbing Stairs
 808. Soup Servings
+2787. Ways to Express an Integer as Sum of Powers
 3333. Find the Original Typed String II
 3335. Total Characters in String After Transformations I
       
