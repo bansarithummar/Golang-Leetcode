@@ -228,6 +228,7 @@
 190. Reverse Bits
 191. Number of 1 Bits
 268. Missing Number
+342. Power of Four
 371. Sum of Two Integers
 338. Counting Bits
 898. Bitwise ORs of Subarrays
