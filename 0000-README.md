@@ -158,6 +158,7 @@
 678. Valid Parenthesis String
 763. Partition Labels
 846. Hand of Straights
+1323. Maximum 69 Number
 1432. Max Difference You Can Get From Changing an Integer
 1899. Merge Triplets to Form Target Triplet
 2311. Longest Binary Subsequence Less Than or Equal to K
