@@ -129,6 +129,7 @@
 79. Word Search
 90. Subsets II
 131. Palindrome Partitioning
+679. 24 Game
 
 
 ### Heap/ Priority Queue
