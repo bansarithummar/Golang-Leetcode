@@ -23,6 +23,7 @@
 2016. Maximum Difference Between Increasing Elements
 2106. Maximum Fruits Harvested After at Most K Steps
 2294. Partition Array Such That Maximum Difference Is K
+2348. Number of Zero-Filled Subarrays
 2402. Meeting Rooms III
 2438. Range Product Queries of Powers
 2561. Rearranging Fruits
