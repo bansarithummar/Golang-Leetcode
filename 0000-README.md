@@ -17,6 +17,7 @@
 1277. Count Square Submatrices with All Ones
 1353. Maximum Number of Events That Can Be Attended
 1394. Find Lucky Integer in an Array
+1504. Count Submatrices With All Ones
 1695. Maximum Erasure Value
 1751. Maximum Number of Events That Can Be Attended II
 1865. Finding Pairs With a Certain Sum
