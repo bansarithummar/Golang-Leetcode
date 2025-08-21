@@ -11,7 +11,6 @@ func numSubmat(mat [][]int) int {
 	type pair struct{ h, cnt int }
 
 	for i := 0; i < m; i++ {
-		// Build histogram heights for this row
 		for j := 0; j < n; j++ {
 			if mat[i][j] == 1 {
 				heights[j] += 1
@@ -20,14 +19,12 @@ func numSubmat(mat [][]int) int {
 			}
 		}
 
-		// Monotonic stack to count submatrices ending at current row
 		stack := make([]pair, 0, n)
 		var sum int64 = 0
 
 		for j := 0; j < n; j++ {
 			h := heights[j]
 			if h == 0 {
-				// reset when a zero breaks the histogram
 				stack = stack[:0]
 				sum = 0
 				continue
@@ -45,7 +42,5 @@ func numSubmat(mat [][]int) int {
 			res += sum
 		}
 	}
-
-	return int(res)
-    
+	return int(res)    
 }
