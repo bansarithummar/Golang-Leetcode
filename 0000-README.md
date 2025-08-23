@@ -34,6 +34,7 @@
 3024. Type of Triangle
 3085. Minimum Deletions to Make String K-Special      
 3195. Find the Minimum Area to Cover All Ones I
+3197. Find the Minimum Area to Cover All Ones II
 3363. Find the Maximum Number of Fruits Collected
 3423. Maximum Difference Between Adjacent Elements in a Circular Array
 3439. Reschedule Meetings for Maximum Free Time I
