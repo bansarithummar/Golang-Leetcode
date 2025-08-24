@@ -10,10 +10,9 @@ func longestSubarray(nums []int) int {
 			}
 			l++
 		}
-		if r-l > best { // delete one element in window
+		if r-l > best { 
 			best = r - l
 		}
 	}
-	return best
-    
+	return best 
 }
