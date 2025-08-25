@@ -12,6 +12,7 @@
 347. Top K Frequent Elements
 238. Product of Array Except Self
 271. Encode and Decode Strings
+498. Diagonal Traverse
 869. Reordered Power of 2
 904. Fruit Into Baskets
 1277. Count Square Submatrices with All Ones
