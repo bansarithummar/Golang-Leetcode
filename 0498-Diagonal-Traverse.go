@@ -14,7 +14,6 @@ func findDiagonalOrder(mat [][]int) []int {
 			c--
 		}
 		if d%2 == 0 {
-			// reverse tmp
 			for i := len(tmp) - 1; i >= 0; i-- {
 				res = append(res, tmp[i])
 			}
