@@ -33,6 +33,7 @@
 2561. Rearranging Fruits
 2616. Minimize the Maximum Difference of Pairs
 2966. Divide Array Into Arrays With Max Difference
+3000. Maximum Area of Longest Diagonal Rectangle
 3024. Type of Triangle
 3085. Minimum Deletions to Make String K-Special      
 3195. Find the Minimum Area to Cover All Ones I
