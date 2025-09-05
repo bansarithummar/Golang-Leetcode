@@ -246,7 +246,8 @@
 898. Bitwise ORs of Subarrays
 2411. Smallest Subarrays With Maximum Bitwise OR
 2419. Longest Subarray With Maximum Bitwise AND
-
+2749. Minimum Operations to Make the Integer Zero
+      
 
 ### Math & Geometry 
 43. Multiply Strings
