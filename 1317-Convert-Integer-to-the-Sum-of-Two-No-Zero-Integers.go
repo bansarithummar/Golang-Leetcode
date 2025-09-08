@@ -15,6 +15,5 @@ func getNoZeroIntegers(n int) []int {
 			return []int{a, b}
 		}
 	}
-	return nil
-    
+	return nil    
 }
