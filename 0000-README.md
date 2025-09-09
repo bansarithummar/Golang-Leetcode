@@ -216,6 +216,7 @@
 746. Min Cost Climbing Stairs
 808. Soup Servings
 837. New 21 Game
+2327. Number of People Aware of a Secret
 2787. Ways to Express an Integer as Sum of Powers
 3333. Find the Original Typed String II
 3335. Total Characters in String After Transformations I
