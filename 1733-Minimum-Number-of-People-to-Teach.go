@@ -8,7 +8,6 @@ func minimumTeachings(n int, languages [][]int, friendships [][]int) int {
 		}
 	}
 
-	// find users in problematic friendships
 	problem := make(map[int]bool)
 	for _, f := range friendships {
 		u, v := f[0], f[1]
@@ -28,7 +27,6 @@ func minimumTeachings(n int, languages [][]int, friendships [][]int) int {
 		return 0
 	}
 
-	// try teaching each language
 	res := m
 	for lang := 1; lang <= n; lang++ {
 		cnt := 0
