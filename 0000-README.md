@@ -21,6 +21,7 @@
 1493. Longest Subarray of 1's After Deleting One Element
 1504. Count Submatrices With All Ones
 1695. Maximum Erasure Value
+1733. Minimum Number of People to Teach
 1751. Maximum Number of Events That Can Be Attended II
 1865. Finding Pairs With a Certain Sum
 1948. Delete Duplicate Folders in System
