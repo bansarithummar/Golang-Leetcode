@@ -7,7 +7,6 @@ func sortVowels(s string) string {
 		return false
 	}
 
-	// collect vowels
 	vowels := []byte{}
 	for i := 0; i < len(s); i++ {
 		if isVowel(s[i]) {
@@ -15,10 +14,8 @@ func sortVowels(s string) string {
 		}
 	}
 
-	// sort vowels by ASCII
 	sort.Slice(vowels, func(i, j int) bool { return vowels[i] < vowels[j] })
 
-	// rebuild string
 	res := make([]byte, len(s))
 	vi := 0
 	for i := 0; i < len(s); i++ {
