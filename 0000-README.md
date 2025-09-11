@@ -300,6 +300,7 @@
 2685. Count the Number of Complete Components      
 2698. Find the Punishment Number of an Integer      
 2780. Minimum Index of a Valid Split
+2785. Sort Vowels in a String
 2799. Count Complete Subarrays in an Array     
 2845. Count of Interesting Subarrays
 2873. Maximum Value of an Ordered Triplet I
