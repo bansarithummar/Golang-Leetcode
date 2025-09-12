@@ -264,6 +264,7 @@
 1317. Convert Integer to the Sum of Two No-Zero Integers
 2013. Detect Squares
 2081. Sum of k-Mirror Numbers
+3227. Vowels Game in a String
 3307. Find the K-th Character in String Game II
 3405. Count the Number of Arrays with K Matching Adjacent Elements
 3443. Maximum Manhattan Distance After K Changes
