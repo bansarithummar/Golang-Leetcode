@@ -8,7 +8,6 @@ func doesAliceWin(s string) bool {
             count++
         }
     }
-    // Alice wins if there is at least one vowel (odd substring exists)
     return count > 0
     
 }
