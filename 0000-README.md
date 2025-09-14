@@ -15,6 +15,7 @@
 498. Diagonal Traverse
 869. Reordered Power of 2
 904. Fruit Into Baskets
+966. Vowel Spellchecker
 1277. Count Square Submatrices with All Ones
 1353. Maximum Number of Events That Can Be Attended
 1394. Find Lucky Integer in an Array
