@@ -1,7 +1,6 @@
 func spellchecker(wordlist []string, queries []string) []string {
     vowels := map[byte]bool{'a': true, 'e': true, 'i': true, 'o': true, 'u': true}
 
-    // Helper to lowercase
     lower := func(s string) string {
         b := []byte(s)
         for i := 0; i < len(b); i++ {
@@ -12,7 +11,6 @@ func spellchecker(wordlist []string, queries []string) []string {
         return string(b)
     }
 
-    // Helper to devowel
     devowel := func(s string) string {
         b := []byte(lower(s))
         for i := 0; i < len(b); i++ {
