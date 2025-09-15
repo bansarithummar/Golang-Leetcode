@@ -25,6 +25,7 @@
 1733. Minimum Number of People to Teach
 1751. Maximum Number of Events That Can Be Attended II
 1865. Finding Pairs With a Certain Sum
+1935. Maximum Number of Words You Can Type
 1948. Delete Duplicate Folders in System
 2016. Maximum Difference Between Increasing Elements
 2106. Maximum Fruits Harvested After at Most K Steps
