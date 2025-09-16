@@ -29,6 +29,7 @@
 1948. Delete Duplicate Folders in System
 2016. Maximum Difference Between Increasing Elements
 2106. Maximum Fruits Harvested After at Most K Steps
+2197. Replace Non-Coprime Numbers in Array
 2294. Partition Array Such That Maximum Difference Is K
 2348. Number of Zero-Filled Subarrays
 2402. Meeting Rooms III
