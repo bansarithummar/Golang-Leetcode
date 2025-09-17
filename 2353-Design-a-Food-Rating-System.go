@@ -59,6 +59,7 @@ func (this *FoodRatings) ChangeRating(food string, newRating int) {
 		this.cuisineHeap[c] = h
 		heap.Init(h)
 	}
+	
 	heap.Push(this.cuisineHeap[c], Item{name: food, rating: newRating})
 }
 
@@ -67,6 +68,7 @@ func (this *FoodRatings) HighestRated(cuisine string) string {
 	if !ok || h.Len() == 0 {
 		return ""
 	}
+	
 	for h.Len() > 0 {
 		top := (*h)[0]
 		curr := this.foodToRating[top.name]
