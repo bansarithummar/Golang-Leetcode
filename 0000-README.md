@@ -32,6 +32,7 @@
 2197. Replace Non-Coprime Numbers in Array
 2294. Partition Array Such That Maximum Difference Is K
 2348. Number of Zero-Filled Subarrays
+2353. Design a Food Rating System
 2402. Meeting Rooms III
 2438. Range Product Queries of Powers
 2561. Rearranging Fruits
