@@ -44,6 +44,7 @@
 3195. Find the Minimum Area to Cover All Ones I
 3197. Find the Minimum Area to Cover All Ones II
 3363. Find the Maximum Number of Fruits Collected
+3408. Design Task Manager
 3423. Maximum Difference Between Adjacent Elements in a Circular Array
 3439. Reschedule Meetings for Maximum Free Time I
 3440. Reschedule Meetings for Maximum Free Time II
