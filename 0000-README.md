@@ -52,9 +52,10 @@
 3446. Sort Matrix by Diagonals
 3477. Fruits Into Baskets II
 3479. Fruits Into Baskets III
+3484. Design Spreadsheet
 3495. Minimum Operations to Make Array Elements Zero
 
-      
+            
 ### Two Pointers
 11. Container With Most Water
 15. 3Sum
